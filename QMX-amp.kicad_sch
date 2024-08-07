@@ -374,7 +374,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a2d04ef4-5ee1-49c1-8112-2f230613295c")
-		(property "Sheetname" "LPF Relay Control"
+		(property "Sheetname" "LPF Relay Control 1"
 			(at 195.58 24.6884 0)
 			(effects
 				(font
@@ -383,7 +383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "LPF Relay Control1.kicad_sch"
 			(at 195.58 64.0846 0)
 			(effects
 				(font
