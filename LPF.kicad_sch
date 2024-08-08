@@ -181,6 +181,30 @@
 		)
 		(uuid "45f6f7a5-8f19-46d2-b09f-0ea5f7802350")
 	)
+	(hierarchical_label "LPF3-IN"
+		(shape input)
+		(at 82.55 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fb9b2d9-bcc7-44b2-9c06-94f17ce991d3")
+	)
+	(hierarchical_label "LPF2-IN"
+		(shape input)
+		(at 72.39 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b18896ba-db2e-4081-8ac5-1718f7030621")
+	)
 	(hierarchical_label "LPF0-IN"
 		(shape input)
 		(at 50.8 40.64 90)
@@ -192,6 +216,54 @@
 			(justify left)
 		)
 		(uuid "c904a873-8e82-4d65-8591-60f855dd0b1b")
+	)
+	(hierarchical_label "LPF1-IN"
+		(shape input)
+		(at 62.23 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d212cc34-72bc-40f3-a42a-20b6e48d97d0")
+	)
+	(hierarchical_label "LPF1-OUT"
+		(shape output)
+		(at 62.23 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47a8c10-4835-440a-bf3b-4b540cc0c94f")
+	)
+	(hierarchical_label "LPF2-OUT"
+		(shape output)
+		(at 72.39 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e94abbee-f90a-4940-be85-99e170a4ce12")
+	)
+	(hierarchical_label "LPF3-OUT"
+		(shape output)
+		(at 82.55 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc60e449-f8b6-4cea-ada5-10919e2c7f1f")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -258,6 +330,216 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 82.55 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a01b24-014e-4e3d-bcb0-4142e6061327")
+		(property "Reference" "L4"
+			(at 83.82 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 83.82 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11090553-ba80-43b5-81f3-8303a4328292")
+		)
+		(pin "2"
+			(uuid "b69646e0-9e3a-4817-86f0-98176b032e91")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 62.23 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584afc3d-d1db-4b60-a140-8d9389668704")
+		(property "Reference" "L2"
+			(at 63.5 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 63.5 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5ec691-d5ce-4771-96b1-828bdfe6b0c8")
+		)
+		(pin "2"
+			(uuid "3fb9ae4a-ba14-4bf2-af81-64fb5dc0d96e")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 72.39 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87822400-b0fc-47c4-ab1b-ea65ca2c4939")
+		(property "Reference" "L3"
+			(at 73.66 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 73.66 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "913248a6-744a-4631-9ee7-089498fe6184")
+		)
+		(pin "2"
+			(uuid "9d47bcb2-9c69-46fe-9d1a-a8e019e439ee")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
+					(reference "L3")
 					(unit 1)
 				)
 			)

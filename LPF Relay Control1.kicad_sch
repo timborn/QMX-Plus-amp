@@ -1328,8 +1328,20 @@
 		(uuid "3c00d23d-7101-4f0e-b4b7-3c87d85df680")
 	)
 	(no_connect
+		(at 162.56 72.39)
+		(uuid "5ade5d23-120e-448c-a5a0-09615ad6fe41")
+	)
+	(no_connect
 		(at 106.68 143.51)
 		(uuid "5e8c436e-7090-451e-bd49-83540d3f5404")
+	)
+	(no_connect
+		(at 162.56 69.85)
+		(uuid "6a2c3d27-fa00-42df-a316-94eab25c5615")
+	)
+	(no_connect
+		(at 162.56 74.93)
+		(uuid "6ef981d1-33b5-47e1-9614-5011cb0dbd60")
 	)
 	(no_connect
 		(at 162.56 29.21)
@@ -1569,6 +1581,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 44.45) (xy 45.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b51536-c805-4306-bed9-b0e6d4d6d46d")
+	)
+	(wire
+		(pts
 			(xy 88.9 53.34) (xy 106.68 53.34)
 		)
 		(stroke
@@ -1599,6 +1621,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d593b83-c5b6-4a29-ac1d-8d69d6cd65a8")
+	)
+	(wire
+		(pts
+			(xy 233.68 72.39) (xy 250.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc7db6b-6e41-474b-b3f0-de1ff1b24fa3")
+	)
+	(wire
+		(pts
 			(xy 170.18 67.31) (xy 170.18 77.47)
 		)
 		(stroke
@@ -1616,6 +1658,26 @@
 			(type default)
 		)
 		(uuid "3511f20a-5460-425e-a3af-46aef42b9922")
+	)
+	(wire
+		(pts
+			(xy 24.13 46.99) (xy 29.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b8cb64-2730-44b1-a209-76a8e32c1313")
+	)
+	(wire
+		(pts
+			(xy 24.13 52.07) (xy 29.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39bacdfc-fa18-4645-9ab9-d0025c7d89f6")
 	)
 	(wire
 		(pts
@@ -1729,6 +1791,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 110.49) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55de8a26-dc10-48fa-a5d9-f6a6dd63d162")
+	)
+	(wire
+		(pts
 			(xy 139.7 50.8) (xy 162.56 50.8)
 		)
 		(stroke
@@ -1789,6 +1861,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61942c2d-db71-4e19-83b6-baba216e0e69")
+	)
+	(wire
+		(pts
 			(xy 233.68 34.29) (xy 251.46 34.29)
 		)
 		(stroke
@@ -1816,6 +1898,16 @@
 			(type default)
 		)
 		(uuid "6a0308b8-3dfa-4879-8c04-4bbd51eefdf2")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 106.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eae6472-5145-42d2-8bc7-18609d4bce4f")
 	)
 	(wire
 		(pts
@@ -1849,6 +1941,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 54.61) (xy 45.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7095c8fa-cc93-4b0f-91f7-6127d4264d05")
+	)
+	(wire
+		(pts
 			(xy 170.18 105.41) (xy 170.18 77.47)
 		)
 		(stroke
@@ -1856,6 +1958,16 @@
 			(type default)
 		)
 		(uuid "70b9116a-a8e4-44e3-8e5b-fdc630686d27")
+	)
+	(wire
+		(pts
+			(xy 24.13 41.91) (xy 29.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73891afc-9eed-42a7-b268-5e7671c3c647")
 	)
 	(wire
 		(pts
@@ -1959,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 148.59) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c3fc8a-7dc1-4612-8554-69ea1894bce2")
+	)
+	(wire
+		(pts
 			(xy 170.18 143.51) (xy 177.8 143.51)
 		)
 		(stroke
@@ -2036,6 +2158,16 @@
 			(type default)
 		)
 		(uuid "adaad736-3b61-47ad-b9f5-1d451e37b973")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 254 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb7c580-9dc5-4f7f-bed1-e640ac6a0df9")
 	)
 	(wire
 		(pts
@@ -2278,6 +2410,17 @@
 		)
 		(uuid "0d7d08b0-f9b7-43a9-bf77-d31815f2314c")
 	)
+	(label "LPF3-IN"
+		(at 102.87 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f957813-f577-4cc7-877d-e2852df2238a")
+	)
 	(label "LPF0-OUT"
 		(at 251.46 34.29 0)
 		(fields_autoplaced yes)
@@ -2288,6 +2431,39 @@
 			(justify left bottom)
 		)
 		(uuid "1537f82a-d110-46c7-a085-b95139692834")
+	)
+	(label "LPF2-IN"
+		(at 24.13 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5adf8ef2-18ab-43a0-bfc5-491ee04ef24c")
+	)
+	(label "LPF3-OUT"
+		(at 254 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b0c8ce-83d3-4744-b231-ac81aaaf1f72")
+	)
+	(label "LPF1-IN"
+		(at 102.87 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b7f5758-fbb3-4bc5-a295-fb5e28a0aec3")
 	)
 	(label "LPF0-IN"
 		(at 102.87 34.29 180)
@@ -2310,6 +2486,94 @@
 			(justify left bottom)
 		)
 		(uuid "8f16bb22-f494-4c55-a835-0677bc317c30")
+	)
+	(label "LPF3-IN"
+		(at 24.13 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "965014cc-219c-4d05-a53a-bc8416bbf87f")
+	)
+	(label "LPF2-OUT"
+		(at 45.72 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac4b7129-07b0-4d4f-a4bd-a977261b2324")
+	)
+	(label "LPF1-OUT"
+		(at 250.19 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b728d2c2-f3aa-4283-a17f-e86d96d9fa5d")
+	)
+	(label "LPF1-IN"
+		(at 24.13 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c67298c3-a0d3-4a71-b011-ff1d7b748804")
+	)
+	(label "LPF2-OUT"
+		(at 251.46 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0562c8a-4d14-421f-bd9e-1de09d19a712")
+	)
+	(label "LPF2-IN"
+		(at 102.87 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d548c907-7924-49c5-87a1-b0c99ed3e108")
+	)
+	(label "LPF1-OUT"
+		(at 45.72 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7eff85d-f5a9-451c-a15a-5f3f23ed9f92")
+	)
+	(label "LPF3-OUT"
+		(at 45.72 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfc06552-6ccf-404e-8d3a-71fed0cc8c20")
 	)
 	(hierarchical_label "LPF0-CTL"
 		(shape input)
@@ -3665,6 +3929,73 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee6fff9-9b5d-4877-a47b-4f0aa4dc58aa")
+		(property "Reference" "#PWR09"
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e2933c-c46a-4e04-b05d-a57354700b24")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5505,7 @@
 	)
 	(sheet
 		(at 29.21 34.29)
-		(size 12.7 12.7)
+		(size 12.7 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5194,7 +5525,7 @@
 			)
 		)
 		(property "Sheetfile" "LPF.kicad_sch"
-			(at 29.21 47.5746 0)
+			(at 29.21 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,6 +5552,66 @@
 				(justify right)
 			)
 			(uuid "15de1634-e24b-43a4-9c63-2818418ad55f")
+		)
+		(pin "LPF1-IN" input
+			(at 29.21 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70f5763b-cd52-4843-ac79-aa7a4c19afb9")
+		)
+		(pin "LPF2-IN" input
+			(at 29.21 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca99233c-8718-4cd0-8ff2-fdcdf09bdbb0")
+		)
+		(pin "LPF3-IN" input
+			(at 29.21 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7df20853-69f0-49dc-be8e-489c05011197")
+		)
+		(pin "LPF1-OUT" output
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "abf67e53-ffe9-490a-9951-68f8d501a27d")
+		)
+		(pin "LPF2-OUT" output
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18319201-90a7-4c35-96db-7051ca823e02")
+		)
+		(pin "LPF3-OUT" output
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84aab4c6-a472-4e4e-baff-dd2c6ccceb51")
 		)
 		(instances
 			(project "QMX-amp"
