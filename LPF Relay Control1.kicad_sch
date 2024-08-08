@@ -5184,7 +5184,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a")
-		(property "Sheetname" "LPF0"
+		(property "Sheetname" "LPF"
 			(at 29.21 33.5784 0)
 			(effects
 				(font
@@ -5193,7 +5193,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LPF0.kicad_sch"
+		(property "Sheetfile" "LPF.kicad_sch"
 			(at 29.21 47.5746 0)
 			(effects
 				(font
