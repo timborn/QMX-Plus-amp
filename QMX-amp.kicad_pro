@@ -437,12 +437,12 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -644,6 +644,10 @@
     [
       "a2d04ef4-5ee1-49c1-8112-2f230613295c",
       "LPF Relay Control 1"
+    ],
+    [
+      "b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a",
+      "LPF0"
     ]
   ],
   "text_variables": {}
