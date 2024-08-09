@@ -422,6 +422,28 @@
 		)
 		(uuid "780250b4-53db-4061-a41e-499700f26ea3")
 	)
+	(rectangle
+		(start 16.51 22.86)
+		(end 60.96 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 834a2f22-0f2a-4053-b24a-74a792de398c)
+	)
+	(text "Power and Ground"
+		(exclude_from_sim no)
+		(at 38.1 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91478560-b6c9-489e-a3e1-c5a09495ea73")
+	)
 	(text "POINTLESS CONNECTIONS!"
 		(exclude_from_sim no)
 		(at 157.734 35.052 0)
