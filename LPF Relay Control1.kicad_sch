@@ -5587,7 +5587,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a")
-		(property "Sheetname" "LPF"
+		(property "Sheetname" "LPF Chain"
 			(at 29.21 33.5784 0)
 			(effects
 				(font
