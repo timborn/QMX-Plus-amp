@@ -654,6 +654,10 @@
     [
       "437da5b9-3c1b-43a3-b733-5d9a574d228b",
       "LPF Chain Bypass"
+    ],
+    [
+      "6e8a5723-6162-4126-acdf-190058cf1f27",
+      "power"
     ]
   ],
   "text_variables": {}
