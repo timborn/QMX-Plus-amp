@@ -2269,7 +2269,7 @@
 			)
 		)
 	)
-	(global_label "+5 REG"
+	(global_label "+5V REG"
 		(shape bidirectional)
 		(at 143.51 101.6 0)
 		(fields_autoplaced yes)
@@ -2281,7 +2281,7 @@
 		)
 		(uuid "6a9df7ba-3268-41cd-a161-d4c6d27d56d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0448 101.6 0)
+			(at 156.1334 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
