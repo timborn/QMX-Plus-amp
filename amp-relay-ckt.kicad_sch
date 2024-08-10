@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX Amp")
-		(date "2024-08-09")
-		(rev "v0.1")
+		(date "2024-08-10")
+		(rev "v0.2")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1845,6 +1845,12 @@
 		(uuid "2e9253ee-65df-4f25-b3f7-384edeea4a0e")
 	)
 	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "333ba385-b656-405a-8393-7b57ae7e2587")
+	)
+	(junction
 		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,12 +1873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff653e1-7d0b-4309-b6b9-a8e6a6d5ceb7")
-	)
-	(junction
-		(at 102.87 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73a4f4ba-08bd-4f18-8f96-19d0b77534db")
 	)
 	(junction
 		(at 82.55 74.93)
@@ -1925,16 +1925,6 @@
 			(type default)
 		)
 		(uuid "02de89bd-9c2b-430a-a246-0abbe2d8c788")
-	)
-	(wire
-		(pts
-			(xy 102.87 101.6) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0335bab0-da46-443e-89a5-f2eb81aebc48")
 	)
 	(wire
 		(pts
@@ -2005,6 +1995,16 @@
 			(type default)
 		)
 		(uuid "2f8b025d-7d45-4056-8480-c9796777ac36")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3564a72d-9d5d-478c-8d4a-0c26172c6d61")
 	)
 	(wire
 		(pts
@@ -2293,22 +2293,22 @@
 	)
 	(global_label "+5V QMX PTT"
 		(shape bidirectional)
-		(at 33.02 120.65 0)
+		(at 49.53 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b28640f6-0eb8-47a2-b598-914b9dc615e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1186 120.65 0)
+			(at 32.4314 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3499,7 +3499,7 @@
 			(uuid "b0e88211-ab6f-4d88-8a28-4b8a0869f368")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
 					(reference "#PWR027")
 					(unit 1)
@@ -3783,7 +3783,7 @@
 			(uuid "322fb6f3-cfcb-44d8-af3d-4067871f5d5c")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
 					(reference "Q5")
 					(unit 1)

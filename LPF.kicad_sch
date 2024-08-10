@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX Amp")
-		(date "2024-08-09")
-		(rev "v0.1")
+		(date "2024-08-10")
+		(rev "v0.2")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -948,7 +948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 104.14 46.9899 0)
 			(effects
 				(font
@@ -1083,7 +1083,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 129.54 26.67 90)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 142.24 46.9899 0)
 			(effects
 				(font
@@ -1690,7 +1690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 124.46 149.8599 0)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 105.41 149.8599 0)
 			(effects
 				(font
@@ -1829,7 +1829,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 129.54 60.96 90)
 			(effects
 				(font
@@ -1898,7 +1898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 124.46 115.5699 0)
 			(effects
 				(font
@@ -1967,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 130.81 95.25 90)
 			(effects
 				(font
@@ -2036,7 +2036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 123.19 46.9899 0)
 			(effects
 				(font
@@ -2238,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 105.41 115.5699 0)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 143.51 149.8599 0)
 			(effects
 				(font
@@ -2580,7 +2580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 104.14 81.2799 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 142.24 81.2799 0)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 130.81 129.54 90)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 123.19 81.2799 0)
 			(effects
 				(font
@@ -3326,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "? pF"
 			(at 143.51 115.5699 0)
 			(effects
 				(font

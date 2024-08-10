@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX Amp")
-		(date "2024-08-09")
-		(rev "v0.1")
+		(date "2024-08-10")
+		(rev "v0.2")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1587,7 +1587,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6e8a5723-6162-4126-acdf-190058cf1f27")
-		(property "Sheetname" "power"
+		(property "Sheetname" "Amp Relay Ckt"
 			(at 16.51 140.2584 0)
 			(effects
 				(font
@@ -1596,7 +1596,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "amp-relay-ckt.kicad_sch"
 			(at 16.51 151.7146 0)
 			(effects
 				(font
