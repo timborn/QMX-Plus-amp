@@ -1845,6 +1845,12 @@
 		(uuid "2e9253ee-65df-4f25-b3f7-384edeea4a0e")
 	)
 	(junction
+		(at 156.21 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31f43222-c9c6-4d9d-bd9c-93d41af5d469")
+	)
+	(junction
 		(at 102.87 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1857,16 +1863,10 @@
 		(uuid "389fd4ae-c550-4b89-a50c-a1f16617c698")
 	)
 	(junction
-		(at 153.67 74.93)
+		(at 156.21 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49f804cf-8ac9-41d4-af6f-9cefb597b34a")
-	)
-	(junction
-		(at 153.67 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5152b5a8-560c-4cdf-985c-3976ba11b289")
+		(uuid "64c5ea8b-88e3-4134-b36c-4ee54ca8fd7e")
 	)
 	(junction
 		(at 72.39 53.34)
@@ -1948,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 53.34) (xy 153.67 62.23)
+			(xy 156.21 53.34) (xy 156.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2018,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 153.67 74.93)
+			(xy 156.21 69.85) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2038,23 +2038,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 153.67 53.34)
+			(xy 134.62 53.34) (xy 156.21 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5368413d-3af9-469a-8d6a-2bb3cf74969a")
-	)
-	(wire
-		(pts
-			(xy 153.67 53.34) (xy 165.1 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ae7084-e784-42df-9053-37b17a680f91")
 	)
 	(wire
 		(pts
@@ -2078,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 74.93) (xy 153.67 74.93)
+			(xy 165.1 74.93) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 134.62 74.93)
+			(xy 134.62 74.93) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2215,6 +2205,16 @@
 			(type default)
 		)
 		(uuid "ed4e28d2-6b9f-490f-bd9a-0b0f4d2817e7")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0019ed-6310-4223-9152-1d95e48f4676")
 	)
 	(wire
 		(pts
@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.1 uF"
 			(at 106.68 106.6799 0)
 			(effects
 				(font
@@ -2610,7 +2610,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 153.67 66.04 90)
+		(at 156.21 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2619,7 +2619,7 @@
 		(dnp no)
 		(uuid "533432ff-76d0-4ac1-bf75-f5a1e3f9d47d")
 		(property "Reference" "D10"
-			(at 151.13 64.7699 90)
+			(at 153.67 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2628,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 151.13 67.3099 90)
+			(at 153.67 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" "1N4148"
-			(at 153.67 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 153.67 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 153.67 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "? uF"
 			(at 55.88 124.8409 0)
 			(effects
 				(font
@@ -3526,7 +3526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.1 uF"
 			(at 137.16 106.6799 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.1 uF"
 			(at 138.43 67.3099 0)
 			(effects
 				(font
