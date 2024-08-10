@@ -3595,7 +3595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eacb9fc-2153-496b-8af1-adfa77a642d5")
-		(property "Reference" "K2"
+		(property "Reference" "K10"
 			(at 206.502 29.21 0)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c"
-					(reference "K2")
+					(reference "K10")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "942adc73-aa99-4867-b967-97cabf9dc0ea")
-		(property "Reference" "K1"
+		(property "Reference" "K9"
 			(at 134.874 32.258 0)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c"
-					(reference "K1")
+					(reference "K9")
 					(unit 1)
 				)
 			)

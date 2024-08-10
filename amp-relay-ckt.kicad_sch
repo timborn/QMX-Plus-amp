@@ -1916,6 +1916,18 @@
 		(color 0 0 0 0)
 		(uuid "ec21a8db-fd32-4d8c-915e-c24c5e514042")
 	)
+	(no_connect
+		(at 101.6 58.42)
+		(uuid "29d9f410-3e55-4a6b-9273-5e32b584374e")
+	)
+	(no_connect
+		(at 106.68 58.42)
+		(uuid "49f02c13-4932-4ea3-88ab-0ecead35387c")
+	)
+	(no_connect
+		(at 104.14 73.66)
+		(uuid "8d92e257-9cf3-42ed-a21b-4a47440653bc")
+	)
 	(wire
 		(pts
 			(xy 102.87 85.09) (xy 102.87 90.17)
@@ -2236,7 +2248,7 @@
 		)
 		(uuid "fbb14617-f8e6-44b0-84c7-4fbe6ba376e9")
 	)
-	(text "why two relays here?\nwhat are all the connections for the relays?\nAre these the same K1 & K2 on p.2?\nwhat are the units for C17?  actually, all caps\nnot sure these really is the amp.  no label on page\n\"+5V REG\" goes somewhere ...\nIs C20 really polarized?\nIs Q5 really BSS123?"
+	(text "Are these the same K1 & K2 on p.2?  YES\nHow can I make K1 & K2 appear two different places\nyet be identical?"
 		(exclude_from_sim no)
 		(at 57.15 36.83 0)
 		(effects
@@ -2246,6 +2258,16 @@
 			(justify left)
 		)
 		(uuid "10bada1c-b8d6-4122-873b-00c363994435")
+	)
+	(text "+5V REG connects to bias pots.\nWhat is a 'bias pot' and where is it in the schematic?"
+		(exclude_from_sim no)
+		(at 177.038 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f36d500-df11-40db-bc22-79f35657a294")
 	)
 	(global_label "+12V"
 		(shape bidirectional)
@@ -3053,7 +3075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9124f9f3-86af-4c67-950c-ff57ccc2636a")
-		(property "Reference" "K10"
+		(property "Reference" "K1"
 			(at 110.49 64.7699 0)
 			(effects
 				(font
@@ -3126,7 +3148,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
-					(reference "K10")
+					(reference "K1")
 					(unit 1)
 				)
 			)
