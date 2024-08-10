@@ -848,7 +848,7 @@
 			)
 		)
 	)
-	(global_label "RF-IN-PAST-SW"
+	(global_label "RF-INTO-FILTERS"
 		(shape bidirectional)
 		(at 57.15 78.74 90)
 		(fields_autoplaced yes)
@@ -860,7 +860,7 @@
 		)
 		(uuid "a893ba6b-395e-433a-b39e-6185eb51e72a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 58.436 90)
+			(at 57.15 57.5893 90)
 			(effects
 				(font
 					(size 1.27 1.27)
