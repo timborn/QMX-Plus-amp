@@ -689,7 +689,7 @@
 	)
 	(global_label "+5V QMX PTT"
 		(shape bidirectional)
-		(at 31.75 53.34 0)
+		(at 31.75 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -699,7 +699,7 @@
 		)
 		(uuid "5c4750be-371d-4666-a22f-3beceaba4d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.8486 53.34 0)
+			(at 48.8486 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,28 +722,6 @@
 		(uuid "7a43ce0f-bbff-4eea-966b-7e580070e6e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.1426 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V REG"
-		(shape bidirectional)
-		(at 31.75 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f27fcec-c6ca-4d6b-b368-d92354706c82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3734 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1450,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 53.34 90)
+		(at 31.75 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1481,7 +1459,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee33968e-4a43-4796-86e1-e0c63c7d0cbf")
 		(property "Reference" "#FLG05"
-			(at 29.845 53.34 0)
+			(at 29.845 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1468,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.94 53.3399 90)
+			(at 27.94 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 53.34 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 53.34 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1495,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 53.34 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
