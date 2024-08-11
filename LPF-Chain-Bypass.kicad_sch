@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX Amp")
-		(date "2024-08-10")
+		(date "2024-08-11")
 		(rev "v0.2")
 		(company "WA7GIL")
 	)
@@ -725,13 +725,25 @@
 		)
 		(uuid "50c3d5c2-892e-4077-8de5-c5dbb767d740")
 	)
-	(text "What controls the coil?"
+	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK"
 		(exclude_from_sim no)
-		(at 168.656 61.722 0)
+		(at 166.116 96.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
+		)
+		(uuid "bc021697-bb5a-46a4-be01-acbc96aa213c")
+	)
+	(text "This shows the RF paths.\nThe coil controls are in the Amp Relay Circuit schematic."
+		(exclude_from_sim no)
+		(at 20.574 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "f5c2a79a-78fd-41ab-8e24-e46462581f74")
 	)

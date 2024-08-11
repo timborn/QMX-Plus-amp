@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX Amp")
-		(date "2024-08-10")
+		(date "2024-08-11")
 		(rev "v0.2")
 		(company "WA7GIL")
 	)
