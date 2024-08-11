@@ -1945,9 +1945,105 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 133.35 101.6)
+		(at 146.05 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "229ddf5d-b70a-4373-8240-31e233f8e3b7")
@@ -2025,6 +2121,12 @@
 		(uuid "b2ff75ed-0822-4fc7-b086-bbc84b9f4374")
 	)
 	(junction
+		(at 123.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea327ccd-1edc-4493-bef4-495358b76bb0")
+	)
+	(junction
 		(at 69.85 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,6 +2141,16 @@
 			(type default)
 		)
 		(uuid "02de89bd-9c2b-430a-a246-0abbe2d8c788")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0556228f-e183-4f0f-9945-2f69984ef532")
 	)
 	(wire
 		(pts
@@ -2112,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 116.84 101.6)
+			(xy 102.87 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 143.51 101.6)
+			(xy 146.05 101.6) (xy 156.21 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 132.08 101.6)
+			(xy 146.05 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2455,7 @@
 	)
 	(text "+5V REG connects to bias pots.\nWhat is a 'bias pot' and where is it in the schematic?"
 		(exclude_from_sim no)
-		(at 177.038 107.188 0)
+		(at 189.738 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2353,7 +2465,7 @@
 	)
 	(global_label "+5V REG"
 		(shape bidirectional)
-		(at 143.51 101.6 0)
+		(at 156.21 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2363,7 +2475,7 @@
 		)
 		(uuid "6a9df7ba-3268-41cd-a161-d4c6d27d56d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1334 101.6 0)
+			(at 168.8334 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,6 +2803,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 123.19 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46ee34a4-0d5f-41d8-83c7-61fd4e7e82ca")
+		(property "Reference" "#FLG06"
+			(at 123.19 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21d1aad2-ba4f-4739-871d-e8478a16f8ed")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 156.21 66.04 90)
 		(mirror x)
@@ -2780,7 +2958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 109.22 0)
+		(at 137.16 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2789,7 +2967,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6b6374-485d-4767-b102-430aa6e7f33d")
 		(property "Reference" "#PWR026"
-			(at 124.46 115.57 0)
+			(at 137.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 114.3 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +3002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 124.46 101.6 0)
+		(at 137.16 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2991,7 +3169,7 @@
 		(fields_autoplaced yes)
 		(uuid "899de6d9-ac10-4f63-a428-86c40d67fb4c")
 		(property "Reference" "U1"
-			(at 124.46 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3177,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 124.46 97.79 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 124.46 95.885 0)
+			(at 137.16 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3195,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 124.46 102.87 0)
+			(at 137.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3204,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 124.46 101.6 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 109.22 0)
+		(at 146.05 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3446,7 +3624,7 @@
 		(fields_autoplaced yes)
 		(uuid "c858c1bc-6863-4d86-867f-65d13bbdc086")
 		(property "Reference" "#PWR025"
-			(at 133.35 115.57 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 114.3 0)
+			(at 146.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 109.22 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 109.22 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 109.22 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3747,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 105.41 0)
+		(at 146.05 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,7 +3756,7 @@
 		(fields_autoplaced yes)
 		(uuid "cec72f8c-f6b0-423b-abca-594e6baefda6")
 		(property "Reference" "C19"
-			(at 137.16 104.1399 0)
+			(at 149.86 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3765,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 137.16 106.6799 0)
+			(at 149.86 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.3152 109.22 0)
+			(at 147.0152 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 105.41 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3792,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 105.41 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
