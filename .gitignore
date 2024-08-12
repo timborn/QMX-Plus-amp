@@ -1,3 +1,4 @@
 # ignore kicad lock files
 ~*
 QMX-amp-backups
+.DS_Store

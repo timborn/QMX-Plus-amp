@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX Amp")
 		(date "2024-08-12")
-		(rev "v0.3")
+		(rev "v0.4")
 		(company "WA7GIL")
 	)
 	(lib_symbols
