@@ -780,6 +780,146 @@
 				)
 			)
 		)
+		(symbol "ZZZMyLibrary:RD16HHF1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RD16HHF1"
+				(at 4.064 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.254 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
+				(at 1.524 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RD16HHF1_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RD16HHF1_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "Gate"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -7.62 90)
+					(length 2.54)
+					(name "Source"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -884,6 +1024,12 @@
 		(uuid "01b37a23-7e08-4c25-826b-9deeb702c110")
 	)
 	(junction
+		(at 93.98 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16a6a137-0a6e-4bb2-aada-7b4601380e8f")
+	)
+	(junction
 		(at 40.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -893,13 +1039,7 @@
 		(at 93.98 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7157d41d-e740-44e2-b845-e1c2f25b9575")
-	)
-	(junction
-		(at 93.98 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d63112ab-b856-4832-b7e3-56b2695c82d4")
+		(uuid "6fd32258-91af-4ad3-8562-633b2faec63d")
 	)
 	(junction
 		(at 93.98 67.31)
@@ -935,16 +1075,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 107.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c72aba9-710a-4ffd-b30f-79e666c8af81")
-	)
-	(wire
-		(pts
 			(xy 93.98 63.5) (xy 99.06 63.5)
 		)
 		(stroke
@@ -972,6 +1102,16 @@
 			(type default)
 		)
 		(uuid "5a438099-3516-407f-ad6e-cc8d8410e29d")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d73f551-ca3b-481f-bc53-8761a1683be8")
 	)
 	(wire
 		(pts
@@ -1015,23 +1155,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 107.95 82.55)
+			(xy 93.98 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae0168a7-5de2-4e98-a937-b2f1ac4fd588")
+		(uuid "cf22d4df-1b75-48c1-9bdd-a38d5c0dbbf5")
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 93.98 82.55)
+			(xy 93.98 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7916bfb-d68e-4afd-9354-2169cbd63656")
+		(uuid "d0230410-f1e3-48f1-8e80-6c905a0869e7")
 	)
 	(wire
 		(pts
@@ -1043,9 +1183,29 @@
 		)
 		(uuid "eb974bf3-7b13-4eb5-a113-a29189f4258d")
 	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece0f114-35fa-48ee-a932-79ebba626859")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6585c6-3206-48b5-b6c1-1429e357fe70")
+	)
 	(global_label "K2-14"
 		(shape bidirectional)
-		(at 107.95 82.55 0)
+		(at 158.75 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1055,7 +1215,7 @@
 		)
 		(uuid "0b113b0b-562d-479f-9c09-6c5bdf0c6165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5172 82.55 0)
+			(at 169.3172 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,6 +1359,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13cdc4ea-4aac-4497-a0cf-227c85a4dc00")
+		(property "Reference" "#PWR042"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a1e5b87-19d4-453f-8093-7e801741eb67")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1409,6 +1636,80 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZZZMyLibrary:RD16HHF1")
+		(at 119.38 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f8f0d2-ef0c-400f-a678-529852778378")
+		(property "Reference" "U3"
+			(at 123.19 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RD16HHF1"
+			(at 123.19 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.124 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
+			(at 98.806 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2d3303a-9a83-4935-9aba-70a019ca6129")
+		)
+		(pin "2"
+			(uuid "45022b30-b07d-40ac-86e1-49b4a1d64be8")
+		)
+		(pin "3"
+			(uuid "d7efab3f-8163-4bd9-ac56-2e6c5d4f84e0")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1823,6 +2124,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae2f70af-8246-4767-8383-45069a1ab50e")
+		(property "Reference" "#PWR041"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe13402-9717-4c21-ac7f-f107537a004f")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 82.55 90)
 		(unit 1)
@@ -2093,6 +2461,80 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZZZMyLibrary:RD16HHF1")
+		(at 119.38 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb102dcf-1c2e-4975-a9e5-f801c1a56e51")
+		(property "Reference" "U2"
+			(at 123.19 83.8201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RD16HHF1"
+			(at 123.19 81.2801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.124 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
+			(at 98.806 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970cbee7-b0a1-4604-83b5-326e24939f6f")
+		)
+		(pin "2"
+			(uuid "95c33eed-8438-46db-84c6-2c6b2dd2583f")
+		)
+		(pin "3"
+			(uuid "4c1ed32e-094b-4281-89ee-24d195538b00")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
+					(reference "U2")
 					(unit 1)
 				)
 			)
