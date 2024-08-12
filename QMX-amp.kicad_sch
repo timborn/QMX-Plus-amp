@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX Amp")
 		(date "2024-08-11")
-		(rev "v0.2")
+		(rev "v0.3")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1797,6 +1797,44 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 161.29)
+		(size 44.45 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "768704d5-e7b1-4c2a-9d2e-06c065a4fa64")
+		(property "Sheetname" "Amp"
+			(at 16.51 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp.kicad_sch"
+			(at 16.51 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
 				)
 			)
 		)

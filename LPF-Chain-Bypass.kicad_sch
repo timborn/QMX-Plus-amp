@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX Amp")
 		(date "2024-08-11")
-		(rev "v0.2")
+		(rev "v0.3")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -715,16 +715,6 @@
 		)
 		(uuid "db4fe364-7698-47a2-95e4-d7d0d5599c03")
 	)
-	(text "AMP goes here"
-		(exclude_from_sim no)
-		(at 138.684 89.662 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50c3d5c2-892e-4077-8de5-c5dbb767d740")
-	)
 	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK"
 		(exclude_from_sim no)
 		(at 166.116 96.266 0)
@@ -746,6 +736,28 @@
 			(justify left)
 		)
 		(uuid "f5c2a79a-78fd-41ab-8e24-e46462581f74")
+	)
+	(global_label "K2-14"
+		(shape bidirectional)
+		(at 138.43 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07ceac51-e8f0-49b1-9b7c-0fda2db4e2de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 89.3072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RF-OUT"
 		(shape bidirectional)
@@ -826,6 +838,28 @@
 		(uuid "be02d50d-99b7-4b4d-abf2-23cbd5505712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.13 90.3433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K1-14"
+		(shape bidirectional)
+		(at 138.43 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd77e497-8360-4397-af47-9c578d3fd517")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 89.7628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
