@@ -1718,22 +1718,11 @@
 			)
 		)
 		(symbol "ZZZMyLibrary:RD16HHF1"
-			(pin_names
-				(offset 0.254)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RD16HHF1"
-				(at 4.064 3.81 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1741,35 +1730,37 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 6.35 0)
+			(property "Value" "RD16HHF1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.588 -16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0.254 -16.256 0)
+				(at 4.572 -20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
-				(at 1.524 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1778,7 +1769,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1788,23 +1788,177 @@
 				)
 			)
 			(symbol "RD16HHF1_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
 			(symbol "RD16HHF1_1_1"
 				(pin input line
-					(at 0 -7.62 90)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "Gate"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1819,10 +1973,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -3.81 -7.62 90)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "Source"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1837,10 +1991,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 3.81 -7.62 90)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "Drain"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2075,12 +2229,6 @@
 		)
 	)
 	(junction
-		(at 151.13 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "017e4280-7dc4-4f60-9397-96d30b690485")
-	)
-	(junction
 		(at 54.61 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2093,22 +2241,34 @@
 		(uuid "16a6a137-0a6e-4bb2-aada-7b4601380e8f")
 	)
 	(junction
+		(at 119.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3296dcf1-426f-4c1f-9545-29f8e2f6ce53")
+	)
+	(junction
 		(at 40.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55e1c938-dd8f-474a-bec5-522fefb16800")
 	)
 	(junction
-		(at 151.13 99.06)
+		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ed3e58e-d002-49be-abd5-36e1bea98045")
+		(uuid "6922a8f3-9e30-43a2-a950-72f5c59cea89")
 	)
 	(junction
 		(at 93.98 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fd32258-91af-4ad3-8562-633b2faec63d")
+	)
+	(junction
+		(at 151.13 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82872436-b1c1-4e3a-92bc-a519b411f819")
 	)
 	(junction
 		(at 93.98 67.31)
@@ -2137,16 +2297,6 @@
 			(type default)
 		)
 		(uuid "135c7f7b-f139-4032-ad4d-578cd537e730")
-	)
-	(wire
-		(pts
-			(xy 111.76 76.2) (xy 111.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "144c6b9d-1e1a-49fa-aded-aa52786006e0")
 	)
 	(wire
 		(pts
@@ -2210,13 +2360,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 111.76 99.06)
+			(xy 119.38 76.2) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "631b57f7-9bcd-4406-927c-b2bd3f319c50")
+		(uuid "6252613d-6a97-4319-a390-0f1e9dcf7ae0")
 	)
 	(wire
 		(pts
@@ -2230,13 +2380,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 111.76 76.2)
+			(xy 151.13 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71bd3bdf-de93-4cc6-af94-9fe26a689c2d")
+		(uuid "68a53682-8cb5-4a0e-87d2-2def281ebc73")
 	)
 	(wire
 		(pts
@@ -2310,6 +2460,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be912369-7874-473b-b19f-52d1b6ea3cb3")
+	)
+	(wire
+		(pts
 			(xy 151.13 87.63) (xy 162.56 87.63)
 		)
 		(stroke
@@ -2337,6 +2497,16 @@
 			(type default)
 		)
 		(uuid "d0230410-f1e3-48f1-8e80-6c905a0869e7")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1c03f9-1baa-4712-8404-6ebfa1c759f6")
 	)
 	(wire
 		(pts
@@ -2370,13 +2540,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 111.76 96.52)
+			(xy 119.38 99.06) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5319d6a-2dee-40f8-9ba5-63aa56e71413")
+		(uuid "f58aac09-e58f-4dc0-a9c5-f9d2cf2d103b")
 	)
 	(global_label "K2-14"
 		(shape bidirectional)
@@ -2534,73 +2704,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13cdc4ea-4aac-4497-a0cf-227c85a4dc00")
-		(property "Reference" "#PWR042"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a1e5b87-19d4-453f-8093-7e801741eb67")
-		)
-		(instances
-			(project "QMX-amp"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3302,16 +3405,16 @@
 	)
 	(symbol
 		(lib_id "ZZZMyLibrary:RD16HHF1")
-		(at 119.38 92.71 270)
+		(at 116.84 92.71 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69f8f0d2-ef0c-400f-a678-529852778378")
 		(property "Reference" "U3"
-			(at 123.19 91.4399 90)
+			(at 123.19 93.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3423,7 @@
 			)
 		)
 		(property "Value" "RD16HHF1"
-			(at 123.19 93.9799 90)
+			(at 123.19 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 125.73 92.71 0)
+			(at 116.84 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.124 92.964 0)
+			(at 117.094 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3451,7 @@
 			)
 		)
 		(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
-			(at 98.806 94.234 0)
+			(at 118.364 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3887,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 88.9 270)
+		(at 116.84 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3793,7 +3896,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2f70af-8246-4767-8383-45069a1ab50e")
 		(property "Reference" "#PWR041"
-			(at 105.41 88.9 0)
+			(at 110.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 88.8999 90)
+			(at 113.03 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 88.9 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 88.9 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 88.9 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,8 +4230,7 @@
 	)
 	(symbol
 		(lib_id "ZZZMyLibrary:RD16HHF1")
-		(at 119.38 82.55 270)
-		(mirror x)
+		(at 116.84 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4136,7 +4238,7 @@
 		(dnp no)
 		(uuid "eb102dcf-1c2e-4975-a9e5-f801c1a56e51")
 		(property "Reference" "U2"
-			(at 123.19 83.8201 90)
+			(at 122.682 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4247,7 @@
 			)
 		)
 		(property "Value" "RD16HHF1"
-			(at 123.19 81.2801 90)
+			(at 122.682 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 125.73 82.55 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.124 82.296 0)
+			(at 117.094 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4275,7 @@
 			)
 		)
 		(property "Description" "Silicon MOSFET Power Transistor 16W 30 MHz 12.5V"
-			(at 98.806 81.026 0)
+			(at 118.364 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
