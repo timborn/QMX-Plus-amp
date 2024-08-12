@@ -715,7 +715,7 @@
 		)
 		(uuid "db4fe364-7698-47a2-95e4-d7d0d5599c03")
 	)
-	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK"
+	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK\n\nBoth relays are operated in sync.  See LPF Relay Control schematic."
 		(exclude_from_sim no)
 		(at 166.116 96.266 0)
 		(effects
@@ -781,6 +781,28 @@
 			)
 		)
 	)
+	(global_label "RELAY-SYNC"
+		(shape passive)
+		(at 151.13 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "675b0dfb-9c98-4013-b58b-42fdd478a341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 49.3404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RF-INTO-FILTERS"
 		(shape bidirectional)
 		(at 130.81 59.69 90)
@@ -825,7 +847,7 @@
 			)
 		)
 	)
-	(global_label "K1COIL2"
+	(global_label "RELAY-SYNC"
 		(shape passive)
 		(at 151.13 100.33 90)
 		(fields_autoplaced yes)
@@ -837,7 +859,7 @@
 		)
 		(uuid "be02d50d-99b7-4b4d-abf2-23cbd5505712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 90.3433 90)
+			(at 151.13 86.1704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,6 +952,72 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/437da5b9-3c1b-43a3-b733-5d9a574d228b"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 151.13 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e37ff3e-daf5-4829-8f1d-5809188ee49a")
+		(property "Reference" "#PWR042"
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0106d55-aee8-4ed0-93b9-db3ad3a310c6")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/437da5b9-3c1b-43a3-b733-5d9a574d228b"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
