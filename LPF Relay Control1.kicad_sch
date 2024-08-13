@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-13")
-		(rev "v0.6")
+		(rev "v0.7")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -632,7 +632,7 @@
 				)
 			)
 			(property "Description" "KEMET, EA2, Relays, Signal, 5 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 14.2mm, 9.2mm, 5.4mm"
-				(at 0 0 0)
+				(at 28.448 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)

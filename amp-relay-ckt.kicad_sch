@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-13")
-		(rev "v0.6")
+		(rev "v0.7")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1067,7 +1067,7 @@
 				)
 			)
 			(property "Description" "PNP transistor, emitter/base/collector"
-				(at 0 0 0)
+				(at 0.508 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1534,16 +1534,22 @@
 		(uuid "2fa4baf4-74b5-4ca7-9740-1274a44d4155")
 	)
 	(junction
+		(at 139.7 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31fba6e2-b648-48f4-aa86-8b1bfa26aec1")
+	)
+	(junction
 		(at 124.46 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "389fd4ae-c550-4b89-a50c-a1f16617c698")
 	)
 	(junction
-		(at 139.7 102.87)
+		(at 132.08 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "446f9ef4-af64-477d-940c-891b41d1aa05")
+		(uuid "3afc331f-71b3-4481-80d0-8753cac09adc")
 	)
 	(junction
 		(at 109.22 54.61)
@@ -1579,13 +1585,7 @@
 		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2ff75ed-0822-4fc7-b086-bbc84b9f4374")
-	)
-	(junction
-		(at 132.08 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d49e92c2-2f78-4170-8469-8248ab40c058")
+		(uuid "ce2b3661-8eec-4602-acdd-ecc75442fbd2")
 	)
 	(junction
 		(at 160.02 102.87)
@@ -1678,6 +1678,16 @@
 			(type default)
 		)
 		(uuid "2042d85f-22e2-411d-8a21-9651e3fcd751")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2370c4a1-1206-4ee9-a07d-e615a0249ec2")
 	)
 	(wire
 		(pts
@@ -1808,16 +1818,6 @@
 			(type default)
 		)
 		(uuid "cae69331-9ffa-46e8-bc4d-a44d986c4c3d")
-	)
-	(wire
-		(pts
-			(xy 139.7 91.44) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7414839-9e52-4456-bc96-0813b65d87de")
 	)
 	(wire
 		(pts
@@ -3104,15 +3104,15 @@
 	(symbol
 		(lib_id "ZZZMyLibrary:MPS-751")
 		(at 137.16 97.79 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9226cd4-d278-4487-be61-e9fef631f1ea")
 		(property "Reference" "Q2"
-			(at 142.24 96.5199 0)
+			(at 142.24 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3121,7 @@
 			)
 		)
 		(property "Value" "MPS-751"
-			(at 142.24 99.0599 0)
+			(at 142.24 96.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 95.25 0)
+			(at 142.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

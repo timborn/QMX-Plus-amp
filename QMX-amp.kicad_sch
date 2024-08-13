@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-13")
-		(rev "v0.6")
+		(rev "v0.7")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -939,7 +939,7 @@
 	)
 	(text "Unless otherwise indicated C is microFarads (uF).\n"
 		(exclude_from_sim no)
-		(at 16.764 191.008 0)
+		(at 16.764 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -957,6 +957,17 @@
 			)
 		)
 		(uuid "91478560-b6c9-489e-a3e1-c5a09495ea73")
+	)
+	(text "There is some extra space in the back of QMX+.\nhttps://qrp-labs.com/\nThis board should just fit, and will bump output \nto ~40-50W across all six bands."
+		(exclude_from_sim no)
+		(at 17.018 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf88bef9-2ccb-4a88-8496-2a05b433ffd7")
 	)
 	(global_label "RF-OUT"
 		(shape bidirectional)
