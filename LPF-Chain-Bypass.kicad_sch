@@ -5,9 +5,9 @@
 	(uuid "bd8f7556-57f1-4132-97bb-b498f9b5ae92")
 	(paper "USLetter")
 	(title_block
-		(title "QMX Amp")
-		(date "2024-08-12")
-		(rev "v0.5")
+		(title "QMX+ Amp")
+		(date "2024-08-13")
+		(rev "v0.6")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -715,7 +715,7 @@
 		)
 		(uuid "db4fe364-7698-47a2-95e4-d7d0d5599c03")
 	)
-	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK\n\nBoth relays are operated in sync.  See LPF Relay Control schematic."
+	(text "Since I could not figure out how to have two instances of K1/K2,\nI ended up using global labels to connect them.  STINKY HACK\n\nBoth relays are operated in sync.  See Amp Relay Ckt schematic."
 		(exclude_from_sim no)
 		(at 166.116 96.266 0)
 		(effects

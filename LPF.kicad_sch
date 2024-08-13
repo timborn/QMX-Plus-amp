@@ -5,9 +5,9 @@
 	(uuid "53e17a65-8b24-4efd-ae7a-159290260562")
 	(paper "USLetter")
 	(title_block
-		(title "QMX Amp")
-		(date "2024-08-12")
-		(rev "v0.5")
+		(title "QMX+ Amp")
+		(date "2024-08-13")
+		(rev "v0.6")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -833,6 +833,17 @@
 		)
 		(uuid "ff7a0a11-b4a0-4bac-9f99-a27efc35eaff")
 	)
+	(text "These are RF paths."
+		(exclude_from_sim no)
+		(at 21.59 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6552a4e7-1af9-44b7-95a9-f8dd36d3b2f2")
+	)
 	(hierarchical_label "LPF0-OUT"
 		(shape output)
 		(at 153.67 41.91 0)
@@ -1083,7 +1094,7 @@
 				)
 			)
 		)
-		(property "Value" "? pF"
+		(property "Value" "220 pF"
 			(at 129.54 26.67 90)
 			(effects
 				(font
@@ -1829,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Value" "? pF"
+		(property "Value" "100 pF"
 			(at 129.54 60.96 90)
 			(effects
 				(font
@@ -1967,7 +1978,7 @@
 				)
 			)
 		)
-		(property "Value" "? pF"
+		(property "Value" "47 pF"
 			(at 130.81 95.25 90)
 			(effects
 				(font
@@ -2985,7 +2996,7 @@
 				)
 			)
 		)
-		(property "Value" "? pF"
+		(property "Value" "36 pF"
 			(at 130.81 129.54 90)
 			(effects
 				(font
