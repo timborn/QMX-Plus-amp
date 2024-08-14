@@ -1,4 +1,4 @@
-23760753234950759
+23779713302478412
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63021,6 +63021,13 @@ L_Toroid Vertical series Radial pin pitch 5.30mm  length 14mm width 5.6mm Bourns
 2
 2
 Inductor_THT
+L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700_1
+L_Toroid, Vertical series, Radial, pin pitch=5.30mm, , length*width=14*5.6mm^2, Bourns, 5700, http://www.bourns.com/docs/Product-Datasheets/5700_series.pdf
+L_Toroid Vertical series Radial pin pitch 5.30mm  length 14mm width 5.6mm Bourns 5700
+0
+2
+2
+Inductor_THT
 L_Toroid_Vertical_L14.0mm_W6.3mm_P4.57mm_Pulse_A
 L_Toroid, Vertical series, Radial, pin pitch=4.57mm, , length*width=13.97*6.35mm^2, Pulse, A, http://datasheet.octopart.com/PE-92112KNL-Pulse-datasheet-17853305.pdf
 L_Toroid Vertical series Radial pin pitch 4.57mm  length 13.97mm width 6.35mm Pulse A
@@ -96628,9 +96635,79 @@ Varistor VF
 2
 2
 ZZZMyLibrary
+Autotransformer_Toroid_1Tap_Horizontal_D9.0mm_Amidon-T30
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 9mm, Amidon T30,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 9mm Amidon T30 
+0
+3
+3
+ZZZMyLibrary
+Autotransformer_Toroid_1Tap_Horizontal_D10.5mm_Amidon-T37
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 10,5mm, Amidon T37,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 10 5mm Amidon T37 
+0
+3
+3
+ZZZMyLibrary
+Autotransformer_Toroid_1Tap_Horizontal_D12.5mm_Amidon-T44
+Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 12,5mm, Amidon T44,
+Autotransformer Toroid horizontal laying 1 Tap Diameter 12 5mm Amidon T44 
+0
+3
+3
+ZZZMyLibrary
+Autotransformer_Toroid_1Tap_Horizontal_D14.0mm_Amidon-T50
+Choke, Inductance, Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 14mm, Amidon T50,
+Choke Inductance Autotransformer Toroid horizontal laying 1 Tap Diameter 14mm Amidon T50 
+0
+3
+3
+ZZZMyLibrary
 BN-43-202-FLAT
 
 
 0
 4
 4
+ZZZMyLibrary
+DIPS762W70P254L1420H540Q10N
+EA2-5NU-ren1
+Relay or Contactor
+0
+10
+10
+ZZZMyLibrary
+Toroid_T50_Vertical_L14.0mm_W5.6mm
+T50 toroid standing on edge
+Toroid T50
+0
+2
+2
+ZZZMyLibrary
+Transformer_Toroid_Tapped_Horizontal_D9.0mm_Amidon-T30
+Transformer, Toroid, tapped, horizontal, laying, Diameter 9mm, Amidon, T30,
+Transformer Toroid tapped horizontal laying Diameter 9mm Amidon T30 
+0
+6
+6
+ZZZMyLibrary
+Transformer_Toroid_Tapped_Horizontal_D10.5mm_Amidon-T37
+Transformer, Toroid, tapped, horizontal, laying, Diameter 10,5mm, Amidon, T37,
+Transformer Toroid tapped horizontal laying Diameter 10 5mm Amidon T37 
+0
+6
+6
+ZZZMyLibrary
+Transformer_Toroid_Tapped_Horizontal_D12.5mm_Amidon-T44
+Transformer, Toroid, tapped, horizontal, laying, Diameter 12,5mm, Amidon, T44,
+Transformer Toroid tapped horizontal laying Diameter 12 5mm Amidon T44 
+0
+6
+6
+ZZZMyLibrary
+Transformer_Toroid_Tapped_Horizontal_D14.0mm_Amidon-T50
+Transformer, Toroid, tapped, horizontal, laying, Diameter 14mm, Amidon T50,
+Transformer Toroid tapped horizontal laying Diameter 14mm Amidon T50 
+0
+6
+6
