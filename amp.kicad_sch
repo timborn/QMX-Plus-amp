@@ -2841,7 +2841,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "L_Ferrite_Coupled"
+		(property "Value" "BN-43-7051"
 			(at 226.06 90.4239 90)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:BN-43-202-FLAT"
 			(at 222.25 88.9 0)
 			(effects
 				(font
@@ -3541,7 +3541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:Toroid_T50_Vertical_L14.0mm_W5.6mm_4pins"
 			(at 195.58 88.9 0)
 			(effects
 				(font

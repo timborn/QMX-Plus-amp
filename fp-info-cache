@@ -1,4 +1,4 @@
-23779713302478412
+23786607981267335
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96663,12 +96663,33 @@ Choke Inductance Autotransformer Toroid horizontal laying 1 Tap Diameter 14mm Am
 3
 3
 ZZZMyLibrary
+BN-43-202-EDGE
+
+
+0
+0
+0
+ZZZMyLibrary
 BN-43-202-FLAT
 
 
 0
 4
 4
+ZZZMyLibrary
+BN-43-202-VERT
+
+
+0
+0
+0
+ZZZMyLibrary
+BN-43-7051-FLAT
+
+
+0
+0
+0
 ZZZMyLibrary
 DIPS762W70P254L1420H540Q10N
 EA2-5NU-ren1
@@ -96683,6 +96704,13 @@ Toroid T50
 0
 2
 2
+ZZZMyLibrary
+Toroid_T50_Vertical_L14.0mm_W5.6mm_4pins
+T50 toroid standing on edge
+Toroid T50
+0
+4
+4
 ZZZMyLibrary
 Transformer_Toroid_Tapped_Horizontal_D9.0mm_Amidon-T30
 Transformer, Toroid, tapped, horizontal, laying, Diameter 9mm, Amidon, T30,
