@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-13")
+		(date "2024-08-18")
 		(rev "v0.7")
 		(company "WA7GIL")
 	)
@@ -2293,6 +2293,17 @@
 			(justify left)
 		)
 		(uuid "34a4146d-de7e-49a0-83e4-3a8f8ac817d0")
+	)
+	(text "\"All LPF capacitors are 250V ceramic NPO/COG or 500V silver mica.  Hole spacing at 0.2\" (~5.0mm)\"\nCap footprint \"It's a rectangle 11 mm x 4 mm. The cap will fit inside that rectangle.\""
+		(exclude_from_sim no)
+		(at 17.272 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55ee1e8c-3b87-436a-abe5-cd33d403514e")
 	)
 	(text "RF-IN"
 		(exclude_from_sim no)

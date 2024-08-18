@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-13")
+		(date "2024-08-18")
 		(rev "v0.7")
 		(company "WA7GIL")
 	)
@@ -844,6 +844,17 @@
 		)
 		(uuid "6552a4e7-1af9-44b7-95a9-f8dd36d3b2f2")
 	)
+	(text "\"All LPF capacitors are 250V ceramic NPO/COG or 500V silver mica.  Hole spacing at 0.2\" (5.04mm)\"\nCap footprint \"It's a rectangle 11 mm x 4 mm. The cap will fit inside that rectangle.\""
+		(exclude_from_sim no)
+		(at 18.288 192.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f41480b9-5614-4552-a855-772bd517bc79")
+	)
 	(hierarchical_label "LPF0-OUT"
 		(shape output)
 		(at 153.67 41.91 0)
@@ -968,7 +979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 101.2952 49.53 0)
 			(effects
 				(font
@@ -1102,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 133.35 30.7848 0)
 			(effects
 				(font
@@ -1304,7 +1315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 139.3952 49.53 0)
 			(effects
 				(font
@@ -1710,7 +1721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 121.6152 152.4 0)
 			(effects
 				(font
@@ -1780,7 +1791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 102.5652 152.4 0)
 			(effects
 				(font
@@ -1848,7 +1859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 133.35 65.0748 0)
 			(effects
 				(font
@@ -1918,7 +1929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 121.6152 118.11 0)
 			(effects
 				(font
@@ -1986,7 +1997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 134.62 99.3648 0)
 			(effects
 				(font
@@ -2056,7 +2067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 118.4148 41.91 0)
 			(effects
 				(font
@@ -2258,7 +2269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 102.5652 118.11 0)
 			(effects
 				(font
@@ -2462,7 +2473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 140.6652 152.4 0)
 			(effects
 				(font
@@ -2600,7 +2611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 101.2952 83.82 0)
 			(effects
 				(font
@@ -2736,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 139.3952 83.82 0)
 			(effects
 				(font
@@ -3004,7 +3015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 134.62 133.6548 0)
 			(effects
 				(font
@@ -3074,7 +3085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 120.3452 83.82 0)
 			(effects
 				(font
@@ -3346,7 +3357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 140.6652 118.11 0)
 			(effects
 				(font

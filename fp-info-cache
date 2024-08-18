@@ -1,4 +1,4 @@
-23786607981267335
+23791780077399153
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -4579,6 +4579,13 @@ C Disc series Radial pin pitch 10.00mm  diameter 10.5mm width 5.0mm Capacitor
 2
 Capacitor_THT
 C_Disc_D11.0mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 11mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D11.0mm_W5.0mm_P5.00mm_1
 C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
 C Disc series Radial pin pitch 5.00mm  diameter 11mm width 5.0mm Capacitor
 0
@@ -96690,6 +96697,20 @@ BN-43-7051-FLAT
 0
 0
 0
+ZZZMyLibrary
+C_Disc_D11.0mm_W4.0mm_P5.00mm
+
+
+0
+2
+2
+ZZZMyLibrary
+C_Disc_D11.0mm_W4.0mm_P5.00mm_1
+
+
+0
+2
+2
 ZZZMyLibrary
 DIPS762W70P254L1420H540Q10N
 EA2-5NU-ren1
