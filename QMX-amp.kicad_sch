@@ -937,6 +937,16 @@
 		)
 		(uuid "0cf0ec68-cf53-4dbe-b4df-0f9d4de25e09")
 	)
+	(text "8 pin header - pin assignment TBD\n"
+		(exclude_from_sim no)
+		(at 36.068 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10d53a67-53ca-49f6-bfbe-fa4f8292c057")
+	)
 	(text "Unless otherwise indicated C is microFarads (uF).\n"
 		(exclude_from_sim no)
 		(at 16.764 196.85 0)
@@ -968,6 +978,36 @@
 			(justify left)
 		)
 		(uuid "bf88bef9-2ccb-4a88-8496-2a05b433ffd7")
+	)
+	(text "SPLIT EM UP!"
+		(exclude_from_sim no)
+		(at 159.258 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d33f383e-1543-4c10-9250-660c17359227")
+	)
+	(text "+12V & gnd on barrel jack 5521"
+		(exclude_from_sim no)
+		(at 34.036 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5aa47fb-7386-4eb4-9c7c-f4da81e26b51")
+	)
+	(text "PTT is on 3.5mm audio TRS"
+		(exclude_from_sim no)
+		(at 31.75 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd5f26ce-ca63-4d2b-897a-e3ede546f68c")
 	)
 	(global_label "RF-OUT"
 		(shape bidirectional)

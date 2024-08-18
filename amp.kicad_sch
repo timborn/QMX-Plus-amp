@@ -2443,7 +2443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 80.772 92.71 90)
 			(effects
 				(font
@@ -2651,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 182.88 97.4852 0)
 			(effects
 				(font
@@ -2719,7 +2719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:BN-43-202-FLAT"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -3208,7 +3208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 135.89 112.0648 0)
 			(effects
 				(font
@@ -3278,7 +3278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -3482,7 +3482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 135.89 67.6148 0)
 			(effects
 				(font
@@ -3693,7 +3693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 135.89 82.8548 0)
 			(effects
 				(font
@@ -3763,7 +3763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 134.112 109.22 90)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 134.112 72.39 90)
 			(effects
 				(font
@@ -3901,7 +3901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
 			(at 135.89 94.9452 0)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 88.9 85.598 90)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 94.742 92.71 90)
 			(effects
 				(font
