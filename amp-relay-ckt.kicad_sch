@@ -2208,7 +2208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
 			(at 140.6652 110.49 0)
 			(effects
 				(font
@@ -2498,7 +2498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
 			(at 89.8652 129.54 0)
 			(effects
 				(font
@@ -3059,7 +3059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
 			(at 183.8452 110.49 0)
 			(effects
 				(font
@@ -3336,7 +3336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W4.0mm_P5.00mm"
+		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
 			(at 172.4152 71.12 0)
 			(effects
 				(font
