@@ -1,4 +1,4 @@
-23793504101294388
+23795228245024638
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96720,6 +96720,13 @@ Relay or Contactor
 10
 ZZZMyLibrary
 SJ1-3523N_CUD
+my hacks on footprint from Digikey that was reversed and didn't have holes for the connectors
+SJ1-3523N 
+0
+5
+5
+ZZZMyLibrary
+SJ1-3523N_CUD-orig
 
 SJ1-3523N 
 0

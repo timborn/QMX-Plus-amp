@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-18")
-		(rev "v0.7")
+		(date "2024-08-19")
+		(rev "v0.8")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -420,6 +420,183 @@
 				)
 			)
 		)
+		(symbol "ZZZMyLibrary:SJ1-3523N"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SJ1-3523N"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ZZZMyLibrary:SJ1-3523N_CUD"
+				(at 18.542 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/sj1-352xn.pdf"
+				(at 18.542 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SJ1-3523N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SJ1-3523N_CUD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SJ1-3523N_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -10.16) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SJ1-3523N_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 7.62)
+					(name "sleeve"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "tip"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "ring"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -763,6 +940,14 @@
 		(color 0 0 0 0)
 		(uuid "df165aed-e33e-4430-9940-9191bd4ac098")
 	)
+	(no_connect
+		(at 30.48 39.37)
+		(uuid "959e3c05-c901-4d3a-9493-ca26e463f212")
+	)
+	(no_connect
+		(at 133.35 121.92)
+		(uuid "d42491cd-66e6-4911-91a0-d18c9f0afd6a")
+	)
 	(wire
 		(pts
 			(xy 175.26 38.1) (xy 195.58 38.1)
@@ -875,16 +1060,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 39.37) (xy 34.29 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f1d47e-a3b6-4465-8a29-3b15c2aa44af")
-	)
-	(wire
-		(pts
 			(xy 30.48 31.75) (xy 34.29 31.75)
 		)
 		(stroke
@@ -958,7 +1133,7 @@
 		)
 		(uuid "320fca8e-75d4-40c2-a5a6-314cb1a1b67e")
 	)
-	(text "now that we have an audio jack selected, place it and wire it in"
+	(text "when you get a PCB populated, expand #LPF to full size\n"
 		(exclude_from_sim no)
 		(at 153.162 100.33 0)
 		(effects
@@ -977,6 +1152,17 @@
 			)
 		)
 		(uuid "91478560-b6c9-489e-a3e1-c5a09495ea73")
+	)
+	(text "3.5mm audio jack\ntip: NC\nsleeve: +5V PTT from QMX+\nring: GND"
+		(exclude_from_sim no)
+		(at 100.838 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9e38f93-0676-4edb-8c9a-5bfc807e3891")
 	)
 	(text "There is some extra space in the back of QMX+.\nhttps://qrp-labs.com/\nThis board should just fit, and will bump output \nto ~40-50W across all six bands."
 		(exclude_from_sim no)
@@ -1009,16 +1195,6 @@
 		)
 		(uuid "e5aa47fb-7386-4eb4-9c7c-f4da81e26b51")
 	)
-	(text "PTT is on 3.5mm audio TRS"
-		(exclude_from_sim no)
-		(at 31.75 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd5f26ce-ca63-4d2b-897a-e3ede546f68c")
-	)
 	(global_label "RF-OUT"
 		(shape bidirectional)
 		(at 43.18 109.22 0)
@@ -1043,7 +1219,7 @@
 	)
 	(global_label "+5V QMX PTT"
 		(shape bidirectional)
-		(at 34.29 39.37 0)
+		(at 133.35 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1053,7 +1229,7 @@
 		)
 		(uuid "5c4750be-371d-4666-a22f-3beceaba4d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.3886 39.37 0)
+			(at 150.4486 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,6 +1578,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fbc786-e029-456b-b64f-96076dae24d7")
+		(property "Reference" "#PWR030"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e5f82e-0c0e-4e4f-bfb0-0e2309d89a76")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 25.4 34.29 0)
 		(unit 1)
@@ -1537,6 +1780,79 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZZZMyLibrary:SJ1-3523N")
+		(at 133.35 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b93c2b-05d3-475c-81d2-34c16c30bfaa")
+		(property "Reference" "U4"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SJ1-3523N"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ZZZMyLibrary:SJ1-3523N_CUD"
+			(at 114.808 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/sj1-352xn.pdf"
+			(at 114.808 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5aecf28-091c-4719-9131-d54532cd3f9b")
+		)
+		(pin "3"
+			(uuid "4d151c1e-6fde-4b43-92c1-4224a911a36a")
+		)
+		(pin "2"
+			(uuid "b6ba602a-937c-4681-b41e-436abaf78504")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U4")
 					(unit 1)
 				)
 			)
