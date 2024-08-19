@@ -958,6 +958,16 @@
 		)
 		(uuid "320fca8e-75d4-40c2-a5a6-314cb1a1b67e")
 	)
+	(text "now that we have an audio jack selected, place it and wire it in"
+		(exclude_from_sim no)
+		(at 153.162 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f6e2228-3fca-4467-9b94-f2313b1c27d7")
+	)
 	(text "Power and Ground"
 		(exclude_from_sim no)
 		(at 38.1 21.844 0)
