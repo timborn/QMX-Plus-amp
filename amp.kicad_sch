@@ -2498,7 +2498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f3ac00-9518-4755-9a72-10cc41d9361e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 176.53 96.52 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8b5d03-1ebb-457f-a0ca-7a68d34255af")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 85.09 91.4399 0)
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2777,7 +2777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49635870-cad3-47e9-99a8-bc9ca43a503b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -2827,7 +2827,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2843,7 +2843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b195734-13cf-467a-b53f-8ebc4a99b034")
-		(property "Reference" "L11"
+		(property "Reference" "L10"
 			(at 226.06 87.8839 90)
 			(effects
 				(font
@@ -2903,7 +2903,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "L11")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -2919,7 +2919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c29fedf-54bc-4f5c-9b72-32ec41d4a918")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554e28e1-2aaa-4fc7-89ce-63c5678782ad")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3052,7 +3052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f8f0d2-ef0c-400f-a678-529852778378")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 165.1 95.2501 0)
 			(effects
 				(font
@@ -3110,7 +3110,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3126,7 +3126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ff50b7e-8210-4936-84dc-4fd818e3099f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -3176,7 +3176,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "795a6a09-e6d6-4322-a750-081d84d0ce91")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a198a10-6948-4339-8038-e6b96b621e72")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -3450,7 +3450,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "990b1d21-79f4-4b04-9585-70e3e0e75ae9")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 132.08 60.96 90)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3534,7 +3534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8ed77b-9ad2-4c36-96b8-1ac1974d3639")
-		(property "Reference" "L12"
+		(property "Reference" "L9"
 			(at 199.39 87.8839 90)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "L12")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae2f70af-8246-4767-8383-45069a1ab50e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -3661,7 +3661,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3677,7 +3677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af812468-1378-44f6-8b79-367bc9c247c2")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 132.08 76.2 90)
 			(effects
 				(font
@@ -3729,7 +3729,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3952,7 +3952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb102dcf-1c2e-4975-a9e5-f801c1a56e51")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 164.592 85.09 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff79a56-f42d-450c-a63e-69541bb555a3")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 88.9 77.47 90)
 			(effects
 				(font
@@ -4078,7 +4078,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4094,7 +4094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f143e5-fa06-4f27-88e5-9db71f64b206")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6504635-d805-4e2f-9736-09ff042a074a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 121.92 113.03 0)
 			(effects
 				(font
@@ -4211,7 +4211,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a56784-e535-427d-8c68-837afb768267")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/768704d5-e7b1-4c2a-9d2e-06c065a4fa64"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

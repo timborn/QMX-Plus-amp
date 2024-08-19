@@ -660,6 +660,14 @@
     [
       "768704d5-e7b1-4c2a-9d2e-06c065a4fa64",
       "Amp"
+    ],
+    [
+      "b9836e54-a99d-4a12-a1fe-25c7c0375e55",
+      "LPF Relay Control 2"
+    ],
+    [
+      "72483d8b-3147-43b6-a759-759a5cf743bc",
+      "LPF Chain2"
     ]
   ],
   "text_variables": {}

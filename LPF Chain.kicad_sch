@@ -1007,13 +1007,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c31d18b-f4b7-4147-bea1-fb24bedc0d50")
+			(uuid "74c58118-d587-46b6-983d-638af51d3b96")
 		)
 		(pin "2"
-			(uuid "a5b54084-3f0a-494d-8d3d-7d9fd931f4cc")
+			(uuid "5dfba4c8-6f9e-446c-bd1e-a3fbc8c4c83f")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
 					(reference "C1")
 					(unit 1)
@@ -1031,7 +1031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16007a25-aa39-4002-b80d-0ff3cf55b9d5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 100.33 90.17 0)
 			(effects
 				(font
@@ -1076,12 +1076,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "75405a34-e461-4e8f-878e-1c8283044a78")
+			(uuid "c8c9b85c-234b-46b5-8141-abf21c30d072")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1097,7 +1097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "173778ac-02aa-4cb2-815b-d7726533a643")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 129.54 24.13 90)
 			(effects
 				(font
@@ -1141,15 +1141,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b51db938-6557-417d-b500-544434230cbd")
+			(uuid "c5e571af-6467-4401-94b1-0c12df8a99ee")
 		)
 		(pin "2"
-			(uuid "24e3f40e-5f01-4af7-959f-c30997e0e43f")
+			(uuid "e474f0aa-859c-4660-a2ba-0d365b32e24a")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1165,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a377275-46c6-446e-9d54-7bf1232d8811")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR027"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -1210,12 +1210,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "087e67b7-92b3-4097-be56-0251a80d0405")
+			(uuid "0d4bc019-4dfe-4215-8807-ae3aff185552")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2d9c7e-ee9c-4841-a6c9-2dc9bed4d8f3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -1276,12 +1276,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c5c2e18-1d58-45be-9fa0-e84c25573902")
+			(uuid "07d6c457-bc42-450c-b940-1de445e464ed")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1297,7 +1297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22fde476-aef3-4216-a620-ef63307d3c58")
-		(property "Reference" "C3"
+		(property "Reference" "C13"
 			(at 142.24 44.4499 0)
 			(effects
 				(font
@@ -1343,15 +1343,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ad966813-21f9-4284-92e8-f3237eac153a")
+			(uuid "61b180ae-fa6c-4ba0-8294-15022dade1fe")
 		)
 		(pin "1"
-			(uuid "fb368057-fc0e-4990-a349-58c20282d11b")
+			(uuid "4874e1ac-d873-47cb-9f0c-8e30662da14f")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1411,10 +1411,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5df323b-4af6-4935-b11d-cd48ca2b64af")
+			(uuid "893dbd43-774b-47d0-83ba-542e638c6b66")
 		)
 		(pin "2"
-			(uuid "f8f7e08f-8d4f-461c-ba1b-17388b5d490a")
+			(uuid "3bb5f8fb-ea78-435c-af7a-585a5d161ffb")
 		)
 		(instances
 			(project "QMX-amp"
@@ -1435,7 +1435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb830df-65db-4c60-be6d-c88a1eec7aea")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR024"
 			(at 120.65 124.46 0)
 			(effects
 				(font
@@ -1480,12 +1480,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "662a16c8-ae55-4921-a7a8-0380d60452f2")
+			(uuid "50f84dfd-c75e-47bd-a9c6-0988446081bf")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1501,7 +1501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae13056-e156-402e-a8f3-9bc88cf1286b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR026"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -1546,12 +1546,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfe46ad7-b49f-4d0c-ba9a-d727c414a390")
+			(uuid "d19c1636-4cbc-4492-8b0d-30e469cbb581")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR012")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1611,13 +1611,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7417dad-2b72-4925-876f-0d86b83f5856")
+			(uuid "b81be70c-4d1e-4b87-9b0d-8f450248fac2")
 		)
 		(pin "2"
-			(uuid "e6865392-80d5-47e9-90db-6dc0a454659a")
+			(uuid "4e7276fd-d81b-436d-8c41-997bb50d42da")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
 					(reference "L1")
 					(unit 1)
@@ -1679,10 +1679,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "813bed61-0437-4e30-9ed2-c7ea8b7a2e28")
+			(uuid "c2e08b80-1d7c-494f-91ca-ea5e91f6e615")
 		)
 		(pin "1"
-			(uuid "9a5d5921-c2aa-493a-aa85-9033cd888052")
+			(uuid "e28cab8d-02fd-4af4-b4dc-bf76c77fed4c")
 		)
 		(instances
 			(project "QMX-amp"
@@ -1703,7 +1703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1ae6da-b079-4e5f-9f99-5bd9917dc0b5")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 124.46 147.3199 0)
 			(effects
 				(font
@@ -1749,15 +1749,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cad96b01-5dc9-4498-9112-45bb8ca3c080")
+			(uuid "3b0962b5-4328-4a2a-baf8-b005abe9ebda")
 		)
 		(pin "1"
-			(uuid "31529b28-beaa-4672-95d1-5b4865d76f18")
+			(uuid "48a6d6e9-2162-4970-92ca-af87fb60ac71")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5784175d-19a0-4e2f-a1d0-8dc555721f43")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 105.41 147.3199 0)
 			(effects
 				(font
@@ -1819,15 +1819,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "80f4ad2b-5322-47f8-bb09-38b80a444a42")
+			(uuid "cbacace6-a695-4b9c-9db1-36e7ddc74035")
 		)
 		(pin "1"
-			(uuid "500af435-8ea5-4380-8854-04b7f1be2fa7")
+			(uuid "cd0a9027-a252-4dfc-94ab-87430aeb829b")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1843,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6172f298-7e5a-4905-aa4a-5605328375d3")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 129.54 58.42 90)
 			(effects
 				(font
@@ -1887,15 +1887,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3776a0c3-84cb-4af5-bcf0-549392ee08b6")
+			(uuid "06a73633-0d9f-40fd-aab7-e66d622a978c")
 		)
 		(pin "1"
-			(uuid "6d296f09-0f89-43cc-9444-17d08c6c1738")
+			(uuid "6d302d98-aa9b-44ab-a7c5-67bf4a41fd84")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1911,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f70c4e-9dd8-418a-b87d-2eebb05bb311")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 124.46 113.0299 0)
 			(effects
 				(font
@@ -1957,15 +1957,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "64dfffdc-f75f-4fea-b1e5-d0e1901cd79a")
+			(uuid "37cd2d3b-dbee-4032-b79f-d6763086e6b4")
 		)
 		(pin "2"
-			(uuid "9ace7401-3600-40f7-8d4b-4f49632a5389")
+			(uuid "8e2a6fec-eece-49b2-bcb3-6503f30a70f6")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1981,7 +1981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b82fe1-a232-43b4-8f92-2e753c8d532c")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 130.81 92.71 90)
 			(effects
 				(font
@@ -2025,15 +2025,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9dac8ac6-b10b-4185-b68a-f82daa07c33e")
+			(uuid "752ce0d8-f3f1-4736-bc02-79ed763d0804")
 		)
 		(pin "1"
-			(uuid "a34362e2-ab04-4359-bb08-d0d300028c9d")
+			(uuid "8e51e4d9-cc6e-4f81-ab8b-3e4e46705dce")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2049,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c1d92f-d2af-4b6f-9620-5866d4d124e0")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 123.19 44.4499 0)
 			(effects
 				(font
@@ -2095,15 +2095,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd6692d2-b14a-4c0d-8d24-40d4053796a9")
+			(uuid "24eae936-5e69-4ce1-8da1-85feaa6d9d87")
 		)
 		(pin "2"
-			(uuid "1a6ad8a3-c909-4cda-b73c-4fa15a14e5c7")
+			(uuid "e6144ed7-b23f-4d9c-8b02-8fd10a87566c")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d179df-8f21-466b-b156-e3a08d3fc9eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 139.7 158.75 0)
 			(effects
 				(font
@@ -2164,12 +2164,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9be5fa76-6fc0-4a9c-92b8-584ad8260516")
+			(uuid "f9916320-4521-4578-82ff-8dd1ab7fba38")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87130393-3660-46d7-9b30-571f367381dd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 101.6 124.46 0)
 			(effects
 				(font
@@ -2230,12 +2230,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "25135897-c60a-464c-b5cc-6a4ce3e31868")
+			(uuid "3e872334-21c1-4226-af40-be0688ce0c73")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9203c30b-565f-42ca-a492-8326729a4e91")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 105.41 113.0299 0)
 			(effects
 				(font
@@ -2297,15 +2297,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "76491580-8149-458c-990d-dd7fdb9d8131")
+			(uuid "4835e3e1-02e8-452a-94a7-2b5971ac38cb")
 		)
 		(pin "2"
-			(uuid "a2e07030-8079-4d80-8347-aa2d17da391e")
+			(uuid "62811b07-8180-466a-900c-af9bad1f3706")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2365,10 +2365,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc42e576-7ac7-4a0f-83b0-37b8578f9073")
+			(uuid "38a6fa0c-0a5c-47a9-ae66-da7aede88ef8")
 		)
 		(pin "2"
-			(uuid "ea2277a5-15dd-4fd3-9136-e162ca1d8477")
+			(uuid "90e65b57-2b46-4705-97c4-4377bea0140e")
 		)
 		(instances
 			(project "QMX-amp"
@@ -2389,7 +2389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa764033-515b-4601-85e4-46e746d782f5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 101.6 158.75 0)
 			(effects
 				(font
@@ -2434,12 +2434,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "731acabc-b39e-49d5-abb8-43cb4cfd90b7")
+			(uuid "1304283b-ad9d-43ce-9436-ba6e5576094c")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2455,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b8be94-3ce6-4fd2-8cba-dfe62ff9719e")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 143.51 147.3199 0)
 			(effects
 				(font
@@ -2501,15 +2501,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ee3b0f3-c088-4bf7-b01e-7566e91a07ce")
+			(uuid "043119e4-9843-4689-8390-9299e924d638")
 		)
 		(pin "1"
-			(uuid "0f05bfcb-8c8e-4f0e-a6d2-1c0aed27c4b1")
+			(uuid "fdbc434d-131e-413b-836f-3e462b965679")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2569,10 +2569,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "99dba591-dbe6-4bb9-8a47-b06c76f07afc")
+			(uuid "6edce9a9-d95e-4e41-a7ae-5bd67ccbdf00")
 		)
 		(pin "2"
-			(uuid "daae16af-8113-4634-b84c-1277a1d68810")
+			(uuid "6435b548-2747-4402-96bb-08b8ffd219d3")
 		)
 		(instances
 			(project "QMX-amp"
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c547c7a0-1cc6-4438-88c8-608cb251f2f5")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 104.14 78.7399 0)
 			(effects
 				(font
@@ -2639,15 +2639,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9122e53e-83df-4e1e-bf4a-3fc650255acb")
+			(uuid "24bf29db-4c60-477a-8366-1949222e89c4")
 		)
 		(pin "2"
-			(uuid "e2264c8b-7576-4207-be73-f18442b47c75")
+			(uuid "3d17f8b8-7646-4264-9f92-8cf2fc325d32")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2663,7 +2663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55665eb-3772-425e-af4f-e69a05f57062")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 120.65 158.75 0)
 			(effects
 				(font
@@ -2708,12 +2708,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a27d37a-156c-44e8-ad20-80dca5b0c683")
+			(uuid "790f330f-f23a-4fd8-a2ce-ae6e4d4e770a")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcce6f5f-5044-480d-9e88-95298f61d410")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 142.24 78.7399 0)
 			(effects
 				(font
@@ -2775,15 +2775,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c21a8c6-d62a-40f3-9d34-5d945f95df0f")
+			(uuid "cef38099-0924-4865-bfbc-0f7114c39a8e")
 		)
 		(pin "2"
-			(uuid "72104e17-e79d-4a0c-96ed-db55b3275991")
+			(uuid "41fd5023-807d-4684-9329-969b4beb1edd")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2843,13 +2843,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "929f3896-64c1-4feb-8e6a-55b3c77f5c97")
+			(uuid "a71e3c01-7149-4339-9259-bfd43ded29e4")
 		)
 		(pin "1"
-			(uuid "518f3671-5a69-4bb9-b78e-62f0115e28a5")
+			(uuid "a404a652-60ef-4199-87d8-18e007f5cc87")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
 					(reference "L5")
 					(unit 1)
@@ -2867,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e72dfb58-73d5-4c82-9644-1e7f7b2aaf8f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR023"
 			(at 119.38 90.17 0)
 			(effects
 				(font
@@ -2912,12 +2912,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7d3f4a0-8164-45b8-9b5a-68f1352c0fae")
+			(uuid "51a6eb92-0dee-42b0-9b00-a0e235c5d90a")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR014")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebcfd17b-0a40-4aa1-be99-1bf8223c2b9f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 100.33 55.88 0)
 			(effects
 				(font
@@ -2978,12 +2978,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "034db6cb-be9f-404f-a582-6afbe5bc20e4")
+			(uuid "6511ebb6-f343-4095-994a-cbc558c5e17c")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR010")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2999,7 +2999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ad7056-48e7-4357-af63-03f1157c0206")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 130.81 127 90)
 			(effects
 				(font
@@ -3043,15 +3043,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "496de6ed-17f1-43d8-afa3-19a8f26f6e1a")
+			(uuid "9d75aefb-b696-426a-9f59-8241f9c43f4e")
 		)
 		(pin "1"
-			(uuid "db7b4bb6-9d9a-4eb2-9f9d-43ba2cec604c")
+			(uuid "31c06141-cccd-4d3a-85db-b34d16a95641")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3113,13 +3113,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7056f607-294e-42c6-8893-69b125814b13")
+			(uuid "919fe71f-ae51-469d-ab3c-39a39e927c33")
 		)
 		(pin "1"
-			(uuid "f2664ed8-cc77-4670-b5f8-f55b3aa6a4fb")
+			(uuid "cac30363-0f3d-471c-9418-7b115c4ff0e6")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
 					(reference "C6")
 					(unit 1)
@@ -3137,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcfdddf8-7123-48f7-988a-964f250acb51")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -3182,12 +3182,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5081b194-3e02-4c35-8b4b-7740436577e3")
+			(uuid "1e61846a-c148-4e7b-9417-0ad0c06b01ad")
 		)
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3247,10 +3247,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f8b02b0-2643-493f-af72-5bffd7add834")
+			(uuid "1c37734f-4977-4946-9cab-2d7db252e61c")
 		)
 		(pin "1"
-			(uuid "65fc50cf-0b2a-422f-b06a-def4dcfd3858")
+			(uuid "46f5342b-d12e-4e62-8347-d467e4cffdc9")
 		)
 		(instances
 			(project "QMX-amp"
@@ -3315,10 +3315,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "819b3776-5863-4c96-b2b3-a8c8c1c70c68")
+			(uuid "8e4a6f04-1a7e-4f3b-8669-681df76dfe33")
 		)
 		(pin "1"
-			(uuid "889400fc-f151-451e-8266-d34a65ee93f8")
+			(uuid "86b395e9-3294-4dff-85ca-442dd7f5a9c7")
 		)
 		(instances
 			(project "QMX-amp"
@@ -3339,7 +3339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef27a45-974f-4e71-9500-0c298de67a4d")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 143.51 113.0299 0)
 			(effects
 				(font
@@ -3385,15 +3385,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "027d9541-ba6b-4eae-b494-eb54a131e3ab")
+			(uuid "938423e2-53e4-4a0e-aee7-1d66cabade81")
 		)
 		(pin "2"
-			(uuid "e2ba3705-2811-4804-920d-f150ceea075e")
+			(uuid "e05a425a-7008-4c51-8ea0-3430668c969e")
 		)
 		(instances
-			(project ""
+			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a2d04ef4-5ee1-49c1-8112-2f230613295c/b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
