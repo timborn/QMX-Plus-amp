@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.8")
+		(rev "v0.9")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -628,16 +628,6 @@
 		)
 		(uuid "6552a4e7-1af9-44b7-95a9-f8dd36d3b2f2")
 	)
-	(text "TODO: check values of caps and resistors"
-		(exclude_from_sim no)
-		(at 71.374 132.588 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c0ed84b-b724-4a64-9c45-62090d6b5514")
-	)
 	(text "\"All LPF capacitors are 250V ceramic NPO/COG or 500V silver mica.  Hole spacing at 0.2\" (5.04mm)\"\nCap footprint \"It's a rectangle 11 mm x 4 mm. The cap will fit inside that rectangle.\""
 		(exclude_from_sim no)
 		(at 18.288 192.532 0)
@@ -716,7 +706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "660 pF"
+		(property "Value" "68 pF"
 			(at 142.24 81.2799 0)
 			(effects
 				(font
@@ -986,7 +976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "660 pF"
+		(property "Value" "68 pF"
 			(at 104.14 81.2799 0)
 			(effects
 				(font
@@ -1187,7 +1177,7 @@
 				)
 			)
 		)
-		(property "Value" "220 pF"
+		(property "Value" "13 pF"
 			(at 129.54 26.67 90)
 			(effects
 				(font
@@ -1256,7 +1246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1240 pF"
+		(property "Value" "120 pF"
 			(at 123.19 81.2799 0)
 			(effects
 				(font
@@ -1526,7 +1516,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2200 pF"
+		(property "Value" "180 pF"
 			(at 123.19 46.9899 0)
 			(effects
 				(font
@@ -1596,7 +1586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820 pF"
+		(property "Value" "82 pF"
 			(at 142.24 46.9899 0)
 			(effects
 				(font
@@ -1802,7 +1792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1200 pF"
+		(property "Value" "120 pF"
 			(at 104.14 46.9899 0)
 			(effects
 				(font

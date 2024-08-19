@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.8")
+		(rev "v0.9")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1294,19 +1294,19 @@
 		)
 	)
 	(junction
-		(at 182.88 118.11)
+		(at 45.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c8bfb61-deb3-4f08-ba9c-b7378f712b8f")
 	)
 	(junction
-		(at 179.07 118.11)
+		(at 41.91 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a07f4ec-010c-48fd-8d24-3ec6f80a720c")
 	)
 	(junction
-		(at 182.88 115.57)
+		(at 45.72 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4594e02-244a-43f4-b8bf-6a350191e2c5")
@@ -1320,7 +1320,7 @@
 		(uuid "bf100ec8-f72a-4f86-9097-f0e37afebc7e")
 	)
 	(no_connect
-		(at 133.35 121.92)
+		(at 106.68 38.1)
 		(uuid "d42491cd-66e6-4911-91a0-d18c9f0afd6a")
 	)
 	(wire
@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 114.3) (xy 182.88 115.57)
+			(xy 45.72 59.69) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 115.57) (xy 182.88 115.57)
+			(xy 41.91 60.96) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 185.42 118.11)
+			(xy 45.72 63.5) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 118.11) (xy 182.88 118.11)
+			(xy 41.91 63.5) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 118.11) (xy 179.07 120.65)
+			(xy 41.91 63.5) (xy 41.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 115.57) (xy 185.42 115.57)
+			(xy 45.72 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 120.65)
+			(xy 45.72 63.5) (xy 45.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1527,7 @@
 	)
 	(rectangle
 		(start 16.51 22.86)
-		(end 74.93 72.39)
+		(end 123.19 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -1547,16 +1547,6 @@
 		)
 		(uuid "0cf0ec68-cf53-4dbe-b4df-0f9d4de25e09")
 	)
-	(text "8 pin header - pin assignment TBD\n"
-		(exclude_from_sim no)
-		(at 142.748 96.266 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "10d53a67-53ca-49f6-bfbe-fa4f8292c057")
-	)
 	(text "Unless otherwise indicated C is microFarads (uF).\n"
 		(exclude_from_sim no)
 		(at 16.764 196.85 0)
@@ -1568,19 +1558,9 @@
 		)
 		(uuid "320fca8e-75d4-40c2-a5a6-314cb1a1b67e")
 	)
-	(text "when you get a PCB populated, expand #LPF to full size\n"
+	(text "Connectors"
 		(exclude_from_sim no)
-		(at 153.162 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f6e2228-3fca-4467-9b94-f2313b1c27d7")
-	)
-	(text "Power and Ground"
-		(exclude_from_sim no)
-		(at 38.1 21.844 0)
+		(at 71.12 21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1590,7 +1570,7 @@
 	)
 	(text "3.5mm audio jack\ntip: NC\nsleeve: +5V PTT from QMX+\nring: GND"
 		(exclude_from_sim no)
-		(at 100.838 134.874 0)
+		(at 74.168 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1609,16 +1589,6 @@
 			(justify left)
 		)
 		(uuid "bf88bef9-2ccb-4a88-8496-2a05b433ffd7")
-	)
-	(text "+12V & gnd on barrel jack 5521"
-		(exclude_from_sim no)
-		(at 140.716 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e5aa47fb-7386-4eb4-9c7c-f4da81e26b51")
 	)
 	(global_label "RF-OUT"
 		(shape bidirectional)
@@ -1666,7 +1636,7 @@
 	)
 	(global_label "+5V QMX PTT"
 		(shape bidirectional)
-		(at 133.35 119.38 0)
+		(at 106.68 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1676,7 +1646,7 @@
 		)
 		(uuid "5c4750be-371d-4666-a22f-3beceaba4d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4486 119.38 0)
+			(at 123.7786 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1922,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 182.88 120.65 180)
+		(at 45.72 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1961,7 +1931,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e904049-7f66-44eb-986d-7b7b2d0197ed")
 		(property "Reference" "#FLG02"
-			(at 182.88 122.555 0)
+			(at 45.72 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1940,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 185.42 121.9199 0)
+			(at 48.26 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 120.65 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 120.65 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1967,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 182.88 120.65 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 38.1 93.98 0)
 			(effects
 				(font
@@ -2181,7 +2151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -2225,7 +2195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 118.11 90)
+		(at 48.26 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2234,7 +2204,7 @@
 		(fields_autoplaced yes)
 		(uuid "62acaa74-b8ca-45cb-98f0-83bf8a5801d7")
 		(property "Reference" "#PWR05"
-			(at 191.77 118.11 0)
+			(at 54.61 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 118.1099 90)
+			(at 52.07 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 118.11 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 118.11 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 118.11 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 124.46 90)
+		(at 106.68 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2301,7 +2271,7 @@
 		(fields_autoplaced yes)
 		(uuid "64fbc786-e029-456b-b64f-96076dae24d7")
 		(property "Reference" "#PWR03"
-			(at 139.7 124.46 0)
+			(at 113.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 124.4599 90)
+			(at 110.49 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 124.46 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 124.46 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 124.46 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2329,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 185.42 115.57 270)
+		(at 48.26 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2367,7 +2337,7 @@
 		(dnp no)
 		(uuid "85c3de65-0e81-4e6f-9040-3b6fa9d33bdb")
 		(property "Reference" "#PWR04"
-			(at 181.61 115.57 0)
+			(at 44.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2346,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 188.976 115.57 90)
+			(at 51.816 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 115.57 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 115.57 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 185.42 115.57 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2395,7 @@
 	)
 	(symbol
 		(lib_id "ZZZMyLibrary:SJ1-3523N")
-		(at 133.35 119.38 0)
+		(at 106.68 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2434,7 +2404,7 @@
 		(dnp no)
 		(uuid "90b93c2b-05d3-475c-81d2-34c16c30bfaa")
 		(property "Reference" "U1"
-			(at 113.03 109.22 0)
+			(at 86.36 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2442,7 +2412,7 @@
 			)
 		)
 		(property "Value" "SJ1-3523N"
-			(at 113.03 111.76 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2450,7 +2420,7 @@
 			)
 		)
 		(property "Footprint" "ZZZMyLibrary:SJ1-3523N_CUD"
-			(at 114.808 104.902 0)
+			(at 88.138 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cuidevices.com/product/resource/sj1-352xn.pdf"
-			(at 114.808 100.584 0)
+			(at 88.138 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 119.38 0)
+			(at 106.68 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2534,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 171.45 118.11 0)
+		(at 34.29 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2573,7 +2543,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8fd5277-3626-4ead-a5e5-493f76c8e034")
 		(property "Reference" "J4"
-			(at 171.45 109.22 0)
+			(at 34.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2551,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 171.45 111.76 0)
+			(at 34.29 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2559,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 172.72 119.126 0)
+			(at 35.56 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 119.126 0)
+			(at 35.56 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2577,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 171.45 118.11 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2605,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 182.88 114.3 0)
+		(at 45.72 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2644,7 +2614,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee33968e-4a43-4796-86e1-e0c63c7d0cbf")
 		(property "Reference" "#FLG01"
-			(at 182.88 112.395 0)
+			(at 45.72 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2623,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 185.42 113.0299 0)
+			(at 48.26 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 114.3 0)
+			(at 45.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 114.3 0)
+			(at 45.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2650,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 182.88 114.3 0)
+			(at 45.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
 			(at 25.4 39.37 0)
 			(effects
 				(font
