@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.9")
+		(rev "v0.10")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -737,7 +737,7 @@
 		)
 		(uuid "f5c2a79a-78fd-41ab-8e24-e46462581f74")
 	)
-	(global_label "K2-14"
+	(global_label "K9-14"
 		(shape bidirectional)
 		(at 138.43 78.74 270)
 		(fields_autoplaced yes)
@@ -869,7 +869,7 @@
 			)
 		)
 	)
-	(global_label "K1-14"
+	(global_label "K10-14"
 		(shape bidirectional)
 		(at 138.43 100.33 90)
 		(fields_autoplaced yes)
@@ -881,7 +881,7 @@
 		)
 		(uuid "cd77e497-8360-4397-af47-9c578d3fd517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 89.7628 90)
+			(at 138.43 88.5533 90)
 			(effects
 				(font
 					(size 1.27 1.27)

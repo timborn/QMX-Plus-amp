@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.9")
+		(rev "v0.10")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -847,7 +847,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -925,7 +925,7 @@
 			)
 			(symbol "SJ1-3523N_1_1"
 				(pin passive line
-					(at 0 0 0)
+					(at 0 2.54 0)
 					(length 7.62)
 					(name "sleeve"
 						(effects
@@ -943,7 +943,43 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
 					(length 7.62)
 					(name "tip"
 						(effects
@@ -961,7 +997,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 -2.54 0)
 					(length 7.62)
 					(name "ring"
 						(effects
@@ -1312,15 +1348,15 @@
 		(uuid "b4594e02-244a-43f4-b8bf-6a350191e2c5")
 	)
 	(no_connect
-		(at 30.48 46.99)
-		(uuid "5e824f42-3d4f-4b1f-bb0b-f59db35c89bb")
+		(at 106.68 40.64)
+		(uuid "0dba6d06-d662-4274-93a9-ef7f0693da03")
 	)
 	(no_connect
-		(at 30.48 49.53)
-		(uuid "bf100ec8-f72a-4f86-9097-f0e37afebc7e")
+		(at 106.68 43.18)
+		(uuid "3bb121bc-c0da-435e-a7aa-19c9be78c44e")
 	)
 	(no_connect
-		(at 106.68 38.1)
+		(at 106.68 35.56)
 		(uuid "d42491cd-66e6-4911-91a0-d18c9f0afd6a")
 	)
 	(wire
@@ -1568,6 +1604,17 @@
 		)
 		(uuid "91478560-b6c9-489e-a3e1-c5a09495ea73")
 	)
+	(text "Input relay is the one I labeled K1. Input transformer is the BN-43-202.\nTODO: Just did some measuring. Fattest cap I have is 3mm  wide so if you change the footprint \nto 3mm wide the board space might be happier.\nTODO: BNC connectors are wrong.  Waiting for P/N"
+		(exclude_from_sim no)
+		(at 85.344 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a4a21d-6481-4d8d-9684-e9398ef3ca0a")
+	)
 	(text "3.5mm audio jack\ntip: NC\nsleeve: +5V PTT from QMX+\nring: GND"
 		(exclude_from_sim no)
 		(at 74.168 51.054 0)
@@ -1636,7 +1683,7 @@
 	)
 	(global_label "+5V QMX PTT"
 		(shape bidirectional)
-		(at 106.68 35.56 0)
+		(at 106.68 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1646,7 +1693,7 @@
 		)
 		(uuid "5c4750be-371d-4666-a22f-3beceaba4d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7786 35.56 0)
+			(at 123.7786 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,6 +2242,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 30.48 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e200cfc-d781-475f-a45a-5ff366109038")
+		(property "Reference" "#PWR063"
+			(at 36.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7935b5dc-72f2-4342-bc56-80f5d7612966")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 48.26 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2262,7 +2376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 40.64 90)
+		(at 106.68 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2271,7 +2385,7 @@
 		(fields_autoplaced yes)
 		(uuid "64fbc786-e029-456b-b64f-96076dae24d7")
 		(property "Reference" "#PWR03"
-			(at 113.03 40.64 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 40.6399 90)
+			(at 110.49 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 40.64 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 40.64 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 40.64 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,6 +2571,12 @@
 		(pin "2"
 			(uuid "b6ba602a-937c-4681-b41e-436abaf78504")
 		)
+		(pin "10"
+			(uuid "57f7e34e-a000-4f92-b90c-b91bd25c68b2")
+		)
+		(pin "11"
+			(uuid "95ce1380-c81c-41c6-be4d-2d29e0e611a2")
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2527,6 +2647,73 @@
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5774f6-1871-4349-9244-5bb4ed126dfc")
+		(property "Reference" "#PWR064"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c38042-e755-45cc-92f4-94367120589c")
+		)
+		(instances
+			(project "QMX-amp"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2976,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
@@ -2827,7 +3014,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
@@ -2865,7 +3052,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -3001,7 +3188,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "7")
+					(page "4")
 				)
 			)
 		)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.9")
+		(rev "v0.10")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -3566,7 +3566,7 @@
 		(instances
 			(project "QMX-amp"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b9836e54-a99d-4a12-a1fe-25c7c0375e55"
-					(page "9")
+					(page "5")
 				)
 			)
 		)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "QMX+ Amp")
 		(date "2024-08-19")
-		(rev "v0.9")
+		(rev "v0.10")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -2327,7 +2327,7 @@
 		)
 		(uuid "ccc048c5-2231-4622-b068-4e3a465b181d")
 	)
-	(global_label "K2-14"
+	(global_label "K9-14"
 		(shape bidirectional)
 		(at 224.79 83.82 90)
 		(fields_autoplaced yes)
@@ -2349,7 +2349,7 @@
 			)
 		)
 	)
-	(global_label "K1-14"
+	(global_label "K10-14"
 		(shape bidirectional)
 		(at 80.01 83.82 180)
 		(fields_autoplaced yes)
@@ -2361,7 +2361,7 @@
 		)
 		(uuid "241894e2-f415-4c4e-ba7b-34fe5a2f1ed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.4428 83.82 0)
+			(at 68.2333 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -3278,7 +3278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical"
 			(at 147.32 113.03 0)
 			(effects
 				(font
