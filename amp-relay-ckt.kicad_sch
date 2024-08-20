@@ -1522,18 +1522,6 @@
 		(uuid "229ddf5d-b70a-4373-8240-31e233f8e3b7")
 	)
 	(junction
-		(at 171.45 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2342c5a7-0ee0-4471-93f4-04a4fbb3db2d")
-	)
-	(junction
-		(at 193.04 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fa4baf4-74b5-4ca7-9740-1274a44d4155")
-	)
-	(junction
 		(at 139.7 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1576,12 +1564,6 @@
 		(uuid "8d5e4de3-8d6f-4a8d-b973-0953aefc5136")
 	)
 	(junction
-		(at 171.45 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98889b2e-d891-4195-8b0f-6e9b2f824fa7")
-	)
-	(junction
 		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1621,16 +1603,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 207.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3e099c-d514-4bd2-aba7-9a6eb5c66b41")
-	)
-	(wire
-		(pts
 			(xy 109.22 76.2) (xy 119.38 76.2)
 		)
 		(stroke
@@ -1641,23 +1613,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 171.45 76.2)
+			(xy 135.89 71.12) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1cdd1a9a-10af-45b8-8317-48392f994784")
-	)
-	(wire
-		(pts
-			(xy 193.04 54.61) (xy 193.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4b0f0e-2b06-409f-8f70-323970b2f074")
 	)
 	(wire
 		(pts
@@ -1731,16 +1693,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50b27b56-1f25-4573-9434-65afcf0046ca")
-	)
-	(wire
-		(pts
 			(xy 119.38 116.84) (xy 119.38 76.2)
 		)
 		(stroke
@@ -1748,16 +1700,6 @@
 			(type default)
 		)
 		(uuid "50dcca93-05a6-468c-bdf6-cfe2ea4df5b9")
-	)
-	(wire
-		(pts
-			(xy 171.45 54.61) (xy 193.04 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5368413d-3af9-469a-8d6a-2bb3cf74969a")
 	)
 	(wire
 		(pts
@@ -1771,17 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8ebb80-61cb-4b59-981f-4823ba7cf061")
-	)
-	(wire
-		(pts
-			(xy 109.22 54.61) (xy 171.45 54.61)
+			(xy 109.22 54.61) (xy 135.89 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1851,16 +1783,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 193.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6431e4f-7149-4a0f-a57c-d70602b1e691")
-	)
-	(wire
-		(pts
 			(xy 120.65 74.93) (xy 120.65 76.2)
 		)
 		(stroke
@@ -1871,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 171.45 54.61)
+			(xy 135.89 63.5) (xy 135.89 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1881,35 +1803,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 124.46 76.2)
+			(xy 135.89 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbb14617-f8e6-44b0-84c7-4fbe6ba376e9")
-	)
-	(global_label "RELAY-SYNC"
-		(shape passive)
-		(at 207.01 74.93 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54e5be89-089d-4572-ae0a-4002d2b12c1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 60.7704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "+5V REG"
 		(shape bidirectional)
@@ -2005,7 +1905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.902 125.73 90)
 			(effects
 				(font
@@ -2072,7 +1972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.89 93.218 90)
 			(effects
 				(font
@@ -2208,7 +2108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 140.6652 110.49 0)
 			(effects
 				(font
@@ -2311,94 +2211,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 193.04 67.31 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "533432ff-76d0-4ac1-bf75-f5a1e3f9d47d")
-		(property "Reference" "D10"
-			(at 190.5 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 190.5 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1N4148"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd3d9257-50c2-4e80-8e01-4ce798928710")
-		)
-		(pin "1"
-			(uuid "a7a0ab08-7e83-43b4-9858-ff7d25eaed1d")
-		)
-		(instances
-			(project "QMX-amp"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6e8a5723-6162-4126-acdf-190058cf1f27"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3059,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 183.8452 110.49 0)
 			(effects
 				(font
@@ -3200,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 128.27 96.012 90)
 			(effects
 				(font
@@ -3310,7 +3122,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 67.31 0)
+		(at 135.89 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3319,7 +3131,7 @@
 		(fields_autoplaced yes)
 		(uuid "f55705d9-608a-42e7-be45-26715a6af11f")
 		(property "Reference" "C19"
-			(at 175.26 66.0399 0)
+			(at 139.7 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3140,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 175.26 68.5799 0)
+			(at 139.7 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,8 +3148,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZZZMyLibrary:C_Disc_D11.0mm_W3.0mm_P5.00mm"
-			(at 172.4152 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 136.8552 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3167,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
