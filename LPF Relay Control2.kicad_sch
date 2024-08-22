@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-19")
-		(rev "v0.10")
+		(date "2024-08-22")
+		(rev "v0.11")
 		(company "WA7GIL")
 	)
 	(lib_symbols

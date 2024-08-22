@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-19")
-		(rev "v0.10")
+		(date "2024-08-22")
+		(rev "v0.11")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -687,6 +687,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 116.84) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a606b9b-3cfe-4904-9ba8-b6354e8d04ad")
+	)
+	(wire
+		(pts
 			(xy 143.51 78.74) (xy 143.51 100.33)
 		)
 		(stroke
@@ -827,7 +837,7 @@
 	)
 	(global_label "RF-IN"
 		(shape bidirectional)
-		(at 140.97 115.57 270)
+		(at 140.97 116.84 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -837,7 +847,7 @@
 		)
 		(uuid "ae6b9027-3521-401d-95b1-82c566f59284")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 125.5326 90)
+			(at 140.97 126.8026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,6 +898,29 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 143.51 88.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f887db29-7885-4afc-ad47-d24ec03d0538")
+		(property "Netclass" "50ohm"
+			(at 146.05 88.011 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)

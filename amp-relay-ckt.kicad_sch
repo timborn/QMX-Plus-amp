@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "QMX+ Amp")
-		(date "2024-08-19")
-		(rev "v0.10")
+		(date "2024-08-22")
+		(rev "v0.11")
 		(company "WA7GIL")
 	)
 	(lib_symbols
@@ -1874,6 +1874,29 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "242845d4-8f57-4fec-aa29-5c07c53a6282")
+		(property "Netclass" "12VPWR"
+			(at 129.54 90.551 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
