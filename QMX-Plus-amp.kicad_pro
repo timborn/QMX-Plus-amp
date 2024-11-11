@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|190605000|102140000|6be14d7a-47bb-46e7-bb3c-05dfa54f009d|099b7c77-d82c-43f0-89d7-efe2f47ad7bc"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -456,7 +454,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "QMX-amp.kicad_pro",
+    "filename": "QMX-Plus-amp.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -740,36 +738,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
-    ],
-    [
-      "a2d04ef4-5ee1-49c1-8112-2f230613295c",
-      "LPF Relay Control 1"
-    ],
-    [
-      "b886ebb3-a1ee-418b-a1aa-7af87d6f6c5a",
-      "LPF Chain"
-    ],
-    [
-      "b9836e54-a99d-4a12-a1fe-25c7c0375e55",
-      "LPF Relay Control 2"
-    ],
-    [
-      "72483d8b-3147-43b6-a759-759a5cf743bc",
-      "LPF Chain2"
-    ],
-    [
-      "437da5b9-3c1b-43a3-b733-5d9a574d228b",
-      "LPF Chain Bypass"
-    ],
-    [
-      "6e8a5723-6162-4126-acdf-190058cf1f27",
-      "Amp Relay Ckt"
-    ],
-    [
-      "768704d5-e7b1-4c2a-9d2e-06c065a4fa64",
-      "Amp"
+      "52975898-76e2-4795-aec6-f8d784be0de0",
+      ""
     ]
   ],
   "text_variables": {}
